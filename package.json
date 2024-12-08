@@ -1,0 +1,11 @@
+{
+  "name": "podofcast",
+  "version": "0.0.1",
+  "scripts": {
+    "start": "parcel './src/pages/*.html'",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "2.13.2"
+  }
+}
