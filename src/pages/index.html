@@ -1,11 +1,180 @@
 <!doctype html>
-<html lang="en">
+<html class="page" lang="en">
   <head>
     <meta charset="utf-8"/>
-    <title>My First Parcel App</title>
+    <title>PodOfCast</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   </head>
-  <body>
-    <h1>Hello, Main!</h1>
-    <a href="/test">To test</a>
+  <body class="page-body">
+    <header class="main-header">
+      <nav class="main-navigation">
+        <a class="main-header-logo" href="index.html">
+          <img src="images/common/logo.svg" width="74" height="153" alt="PodOfcast's logotype">
+        </a>
+        <ul class="site-navigation">
+          <li><a href="episodes.html">Episodes</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="more.html">More</a></li>
+        </ul>
+
+          <ul class="header-button-list">
+            <li class="button-episodes-li"><button class="button-episodes" type="button">Recent Episodes</button></li>
+            <li class="button-subscribe-li"><button class="button-subscribe" type="button">Subscribe</button></li>
+          </ul>
+
+      </nav>
+    </header>
+
+  <main class="container">
+
+    <h1>Your Daily Podcast</h1>
+    <p>We cover all kinds of categories and<br>
+      a weekly special guest.</p>
+
+    <a href="blank.html">Subscribe</a>
+
+    <section>
+      <h2>Covers</h2>
+      <ul>
+        <li>
+          <h3>Tesla Autopilot</h3>
+        </li>
+        <li>
+          <h3>Self-confidence</h3>
+        </li>
+        <li>
+          <h3>Perplexed Mind</h3>
+        </li>
+        <li>
+          <h3>Womens Rights</h3>
+        </li>
+        <li>
+          <h3>Social Class</h3>
+        </li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Platforms</h2>
+      <p>Supported by:</p>
+      <ul>
+        <li><a href="https://music.youtube.com/googlepodcasts">
+          <img src="images/platforms/googlepodcast.svg" width="122" height="22" alt="Google Podcasts">
+        </a></li>
+        <li><a href="https://www.spotify.com">
+          <img src="images/platforms/spotify.svg" width="80" height="22" alt="Spotify">
+        </a></li>
+        <li><a href="https://www.youtube.com">
+          <img src="images/platforms/youtube.svg" width="94" height="22" alt="YouTube">
+        </a></li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Talk. Listen. Get inspired<br>
+        by every minute of it.</h2>
+      <figure>
+        <a href="blank.html">
+          <img src="images/illustration/illustration.svg" width="275" height="275" alt="a man's head with question marks in a cloud">
+        </a>
+      </figure>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Curabitur ac ultrices odio. </p>
+      <a href="blank.html">
+        <img src="images/illustration/illustration2.svg" width="275" height="275" alt="Light bulb of ideas">
+      </a>
+      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
+        Curabitur ac ultrices odio. </p>
+    </section>
+
+    <section>
+      <h2>One of the best daily podcasts that<br>
+        covers every topic on Spotify.</h2>
+      <p>John Smith</p>
+      <p>Social Community Manager</p>
+    </section>
+
+  </main>
+
+  <footer class="main-footer">
+    <div class="grid-footer">
+      <section class="first-block">
+        <ul class="first-block-list">
+          <li class="footer-logo-list">
+            <a class="footer-logo" href="index.html">
+            <img src="images/common/logo.svg" width="74" height="153" alt="PodOfcast's logotype">
+            </a>
+            <p class="footer-logo-text">©2021.</p>
+          </li>
+          <li>
+            <p class="footer-logo-text-two">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+          </li>
+          <li class="footer-socials">
+            <a href="https://www.twitter.com">
+              <img src="images/socials/twitter.svg" width="24" height="24" alt="our twitter">
+            </a>
+            <a href="https://www.instagram.com">
+              <img src="images/socials/instagram.svg" width="24" height="24" alt="our instagram">
+            </a>
+            <a href="https://www.tiktok.com">
+              <img src="images/socials/tiktok.svg" width="24" height="24" alt="our TikTok">
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <section class="footer-menu">
+        <ul class="footer-menu-list-one">
+          <li><a href="about.html">About</a></li>
+          <li><a href="blank.html">Testimonials</a></li>
+          <li><a href="blank.html">Features</a></li>
+        </ul>
+        <ul class="footer-menu-list-two">
+          <li><a href="episodes.html">Episodes</a></li>
+          <li><a href="blank.html">Pricing</a></li>
+          <li><a href="blank.html">Blog</a></li>
+        </ul>
+      </section>
+
+      <section class="footer-platforms-apps">
+        <div class="footer-platforms">
+          <p>Listen to episodes on your fav platform:</p>
+          <ul class="footer-platforms-list">
+            <li><a href="https://music.youtube.com/googlepodcasts">
+              <img src="images/platforms/googlepodcast.svg" width="122" height="22" alt="Google Podcasts">
+            </a></li>
+            <li><a href="https://www.spotify.com">
+              <img src="images/platforms/spotify.svg" width="80" height="22" alt="Spotify">
+            </a></li>
+            <li><a href="https://www.youtube.com">
+              <img src="images/platforms/youtube.svg" width="94" height="22" alt="YouTube">
+            </a></li>
+          </ul>
+        </div>
+        <div class="footer-apps">
+          <p>App available on:</p>
+          <ul class="footer-apps-list">
+            <li><a href="https://www.appstore.com">
+              <img src="images/apps/app_store.svg" width="36" height="36" alt="AppStore">
+            </a></li>
+            <li><a href="https://www.appstore.com">
+              <img src="images/apps/google_play.svg" width="36" height="36" alt="Google Play">
+            </a></li>
+          </ul>
+        </div>
+      </section>
+    </div>
+    <section class="footnote">
+      <p>©2022. All Rights Reserved.
+        <a href="index.html">Pod of Cast</a>
+      </p>
+      <ul class="footnote-terms-privacy">
+        <li><a href="blank.html">Terms</a></li>
+        <li>•</li>
+        <li><a href="blank.html">Privacy</a></li>
+      </ul>
+    </section>
+  </footer>
   </body>
 </html>
