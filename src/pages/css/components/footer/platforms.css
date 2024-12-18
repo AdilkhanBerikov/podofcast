@@ -1,0 +1,37 @@
+.footer__platforms-apps {
+    font-size: 16px;
+    /*margin-left: 124px;*/
+    /*width: 219px;*/
+    height: 219px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.platforms {
+    height: 77px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.platforms__list {
+    height: 22px;
+    display: flex;
+    justify-content: space-between
+}
+
+.apps {
+    width: 145px;
+    height: 82px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.apps__list {
+    width: 92px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between
+}

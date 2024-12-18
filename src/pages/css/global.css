@@ -1,0 +1,32 @@
+*{
+    box-sizing: border-box;
+}
+
+.page{
+    height: 100%;
+}
+
+.page__body {
+    font-family: "Montserrat Alternates", serif;
+    font-weight: 500;
+    font-style: normal;
+
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: var(--color-vermillion);
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}
