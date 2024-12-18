@@ -3,27 +3,44 @@
   <head>
     <meta charset="utf-8"/>
     <title>PodOfCast</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/main.css">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
   </head>
-  <body class="page-body">
-    <header class="main-header">
-      <nav class="main-navigation">
-        <a class="main-header-logo" href="index.html">
-          <img src="images/common/logo.svg" width="74" height="153" alt="PodOfcast's logotype">
+  <body class="page__body">
+    <header class="page__header">
+      <div class="grid -header box">
+        <a class="header__logo logo" href="index.html">
+          <img class="logo__image" src="images/common/logo.svg" width="74" height="74" alt="PodOfcast's logotype">
         </a>
-        <ul class="site-navigation">
-          <li><a href="episodes.html">Episodes</a></li>
-          <li><a href="about.html">About</a></li>
-          <li><a href="more.html">More</a></li>
-        </ul>
-
-          <ul class="header-button-list">
-            <li class="button-episodes-li"><button class="button-episodes" type="button">Recent Episodes</button></li>
-            <li class="button-subscribe-li"><button class="button-subscribe" type="button">Subscribe</button></li>
+        <nav class="header-nav">
+          <ul class="header-nav__list">
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="episodes.html">Episodes</a>
+            </li>
+            <li class="header-nav__item">
+              <a class="header-nav__link" href="about.html">About</a>
+            </li>
+            <li class="header-nav__item dropdown-trigger">
+              <a class="header-nav__link" href="more.html">More</a>
+<!--              <svg class="arrow-down" width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">-->
+<!--                <path opacity="0.3" d="M14.6668 7.99992C14.6668 11.6766 11.6762 14.6666 8.00016 14.6666C4.32416 14.6666 1.3335 11.6766 1.3335 7.99992C1.3335 4.32392 4.32416 1.33325 8.00016 1.33325C11.6762 1.33325 14.6668 4.32392 14.6668 7.99992" stroke="black" stroke-opacity="0.4" stroke-width="1.5"/>-->
+<!--                <path d="M10.8139 7.0384C10.8139 7.16574 10.7653 7.29374 10.6679 7.39107L8.35459 9.71574C8.26059 9.80974 8.13326 9.8624 7.99993 9.8624C7.86726 9.8624 7.73993 9.80974 7.64593 9.71574L5.33126 7.39107C5.13659 7.19574 5.13659 6.87974 5.33259 6.6844C5.52859 6.48974 5.84526 6.4904 6.03993 6.68574L7.99993 8.6544L9.95993 6.68574C10.1546 6.4904 10.4706 6.48974 10.6666 6.6844C10.7653 6.78174 10.8139 6.9104 10.8139 7.0384Z" fill="black"/>-->
+<!--              </svg>-->
+              <ul class="dropdown-menu">
+                <li><a class="dropdown-menu__link" href="#">Link 1</a></li>
+                <li><a class="dropdown-menu__link" href="#">Link 2</a></li>
+                <li><a class="dropdown-menu__link" href="#">Link 3</a></li>
+              </ul>
+            </li>
           </ul>
-
-      </nav>
+        </nav>
+        <div class="userbar">
+          <ul class="userbar__list">
+            <li class="userbar__item"><button class="button -alternate" type="button">Recent Episodes</button></li>
+            <li class="userbar__item"><button class="button" type="button">Subscribe</button></li>
+          </ul>
+        </div>
+      </div>
     </header>
 
   <main class="container">
@@ -97,84 +114,91 @@
 
   </main>
 
-  <footer class="main-footer">
-    <div class="grid-footer">
-      <section class="first-block">
-        <ul class="first-block-list">
-          <li class="footer-logo-list">
-            <a class="footer-logo" href="index.html">
-            <img src="images/common/logo.svg" width="74" height="153" alt="PodOfcast's logotype">
-            </a>
-            <p class="footer-logo-text">©2021.</p>
-          </li>
-          <li>
-            <p class="footer-logo-text-two">Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-          </li>
-          <li class="footer-socials">
-            <a href="https://www.twitter.com">
-              <img src="images/socials/twitter.svg" width="24" height="24" alt="our twitter">
-            </a>
-            <a href="https://www.instagram.com">
-              <img src="images/socials/instagram.svg" width="24" height="24" alt="our instagram">
-            </a>
-            <a href="https://www.tiktok.com">
-              <img src="images/socials/tiktok.svg" width="24" height="24" alt="our TikTok">
-            </a>
-          </li>
-        </ul>
-      </section>
+  <footer class="page__footer">
+    <div class="grid -footer box">
+      <div class="footer__info">
+<!--        <section class="first-block">-->
+          <ul class="first-block__list">
+            <li class="first-block__item">
+              <a class="footer__logo logo" href="index.html">
+                <img src="images/common/logo.svg" width="74" height="74" alt="PodOfcast's logotype">
+              </a>
+              <p class="logo__copyright">©2021.</p>
+            </li>
+            <li class="first-block__item">
+              <p class="first-block__text">Lorem ipsum dolor sit amet, <br>
+                consectetur adipiscing elit.</p>
+            </li>
+            <li class="first-block__item">
+              <a href="https://www.twitter.com">
+                <img src="images/socials/twitter.svg" width="24" height="24" alt="our twitter">
+              </a>
+              <a href="https://www.instagram.com">
+                <img src="images/socials/instagram.svg" width="24" height="24" alt="our instagram">
+              </a>
+              <a href="https://www.tiktok.com">
+                <img src="images/socials/tiktok.svg" width="24" height="24" alt="our TikTok">
+              </a>
+            </li>
+          </ul>
+<!--        </section>-->
 
-      <section class="footer-menu">
-        <ul class="footer-menu-list-one">
-          <li><a href="about.html">About</a></li>
-          <li><a href="blank.html">Testimonials</a></li>
-          <li><a href="blank.html">Features</a></li>
-        </ul>
-        <ul class="footer-menu-list-two">
-          <li><a href="episodes.html">Episodes</a></li>
-          <li><a href="blank.html">Pricing</a></li>
-          <li><a href="blank.html">Blog</a></li>
-        </ul>
-      </section>
+        <section class="footer-menu">
+          <ul class="footer-menu__list">
+            <li class="footer-menu__item"><a href="about.html">About</a></li>
+            <li class="footer-menu__item"><a href="blank.html">Testimonials</a></li>
+            <li class="footer-menu__item"><a href="blank.html">Features</a></li>
+          </ul>
+          <ul class="footer-menu__list">
+            <li class="footer-menu__item"><a href="episodes.html">Episodes</a></li>
+            <li class="footer-menu__item"><a href="blank.html">Pricing</a></li>
+            <li class="footer-menu__item"><a href="blank.html">Blog</a></li>
+          </ul>
+        </section>
 
-      <section class="footer-platforms-apps">
-        <div class="footer-platforms">
-          <p>Listen to episodes on your fav platform:</p>
-          <ul class="footer-platforms-list">
-            <li><a href="https://music.youtube.com/googlepodcasts">
-              <img src="images/platforms/googlepodcast.svg" width="122" height="22" alt="Google Podcasts">
-            </a></li>
-            <li><a href="https://www.spotify.com">
-              <img src="images/platforms/spotify.svg" width="80" height="22" alt="Spotify">
-            </a></li>
-            <li><a href="https://www.youtube.com">
-              <img src="images/platforms/youtube.svg" width="94" height="22" alt="YouTube">
-            </a></li>
+        <section class="footer__platforms-apps">
+          <div class="platforms">
+            <p>Listen to episodes on your fav platform:</p>
+            <ul class="platforms__list">
+              <li><a href="https://music.youtube.com/googlepodcasts">
+                <img src="images/platforms/googlepodcast.svg" width="122" height="22" alt="Google Podcasts">
+              </a></li>
+              <li><a href="https://www.spotify.com">
+                <img src="images/platforms/spotify.svg" width="80" height="22" alt="Spotify">
+              </a></li>
+              <li><a href="https://www.youtube.com">
+                <img src="images/platforms/youtube.svg" width="94" height="22" alt="YouTube">
+              </a></li>
+            </ul>
+          </div>
+          <div class="apps">
+            <p>App available on:</p>
+            <ul class="apps__list">
+              <li><a href="https://www.appstore.com">
+                <img src="images/apps/app_store.svg" width="36" height="36" alt="AppStore">
+              </a></li>
+              <li><a href="https://www.appstore.com">
+                <img src="images/apps/google_play.svg" width="36" height="36" alt="Google Play">
+              </a></li>
+            </ul>
+          </div>
+        </section>
+      </div>
+      <div class="footnote">
+        <div class="footnote__copyright">
+          <p>©2022. All Rights Reserved.
+            <a href="index.html">Pod of Cast</a>
+          </p>
+        </div>
+        <div class="footnote__terms">
+          <ul class="footnote__terms-privacy">
+            <li><a href="blank.html">Terms</a></li>
+            <li>•</li>
+            <li><a href="blank.html">Privacy</a></li>
           </ul>
         </div>
-        <div class="footer-apps">
-          <p>App available on:</p>
-          <ul class="footer-apps-list">
-            <li><a href="https://www.appstore.com">
-              <img src="images/apps/app_store.svg" width="36" height="36" alt="AppStore">
-            </a></li>
-            <li><a href="https://www.appstore.com">
-              <img src="images/apps/google_play.svg" width="36" height="36" alt="Google Play">
-            </a></li>
-          </ul>
-        </div>
-      </section>
+      </div>
     </div>
-    <section class="footnote">
-      <p>©2022. All Rights Reserved.
-        <a href="index.html">Pod of Cast</a>
-      </p>
-      <ul class="footnote-terms-privacy">
-        <li><a href="blank.html">Terms</a></li>
-        <li>•</li>
-        <li><a href="blank.html">Privacy</a></li>
-      </ul>
-    </section>
   </footer>
   </body>
 </html>

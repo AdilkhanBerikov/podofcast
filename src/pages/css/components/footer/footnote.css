@@ -1,0 +1,13 @@
+.footnote__copyright {
+    height: 19px;
+}
+
+.footnote__terms {
+    width: 109px;
+    height: 19px;
+}
+
+.footnote__terms-privacy {
+    display: flex;
+    justify-content: space-between
+}

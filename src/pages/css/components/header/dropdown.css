@@ -1,0 +1,56 @@
+.dropdown-trigger::after {
+    content: "";
+    display: inline-block;
+    background: url("data:image/svg+xml,%3Csvg%20class%3D%22arrow-down%22%20xmlns%3D%22http%3A//www.w3.org/2000/svg%22%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%3E%3Cpath%20opacity%3D%220.3%22%20d%3D%22M14.6668%207.99992C14.6668%2011.6766%2011.6762%2014.6666%208.00016%2014.6666C4.32416%2014.6666%201.3335%2011.6766%201.3335%207.99992C1.3335%204.32392%204.32416%201.33325%208.00016%201.33325C11.6762%201.33325%2014.6668%204.32392%2014.6668%207.99992%22%20stroke%3D%22black%22%20stroke-opacity%3D%220.4%22%20stroke-width%3D%221.5%22/%3E%3Cpath%20d%3D%22M10.8139%207.0384C10.8139%207.16574%2010.7653%207.29374%2010.6679%207.39107L8.35459%209.71574C8.26059%209.80974%208.13326%209.8624%207.99993%209.8624C7.86726%209.8624%207.73993%209.80974%207.64593%209.71574L5.33126%207.39107C5.13659%207.19574%205.13659%206.87974%205.33259%206.6844C5.52859%206.48974%205.84526%206.4904%206.03993%206.68574L7.99993%208.6544L9.95993%206.68574C10.1546%206.4904%2010.4706%206.48974%2010.6666%206.6844C10.7653%206.78174%2010.8139%206.9104%2010.8139%207.0384Z%22%20fill%3D%22black%22/%3E%3C/svg%3E") no-repeat center;
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+    /*content: "˅";*/
+    /*padding: 12px 8px;*/
+    /*position: absolute;*/
+    /*right: 20px;*/
+    /*top: 8px;*/
+    /*z-index: 1;*/
+    /*text-align: center;*/
+    /*width: 10%;*/
+    /*height: 100%;*/
+    /*pointer-events: none;*/
+
+    /*transform: scalex(2);*/
+    /*border: 1px solid var(--color-black-transparent);*/
+}
+
+/*.arrow-down {*/
+/*    margin-left: 5px;*/
+/*}*/
+
+.dropdown-menu {
+    top: 25px;
+    width: 100px;
+    height: 99px;
+    display: none; /* Скрываем меню по умолчанию */
+    position: absolute; /* Меню будет позиционироваться относительно родителя */
+    background-color: var(--color-white); /* Цвет фона */
+    border: 1px solid #ccc; /* Граница меню */
+    border-radius: 3px; /* Сглаженные углы */
+    /*padding: 8px 0; !* Внутренние отступы *!*/
+    box-shadow: 0 10px 10px rgba(0, 0, 0, 0.4); /* Легкая тень */
+    z-index: 10; /* Меню поверх остального контента */
+}
+
+.dropdown-menu__link {
+    display: flex;
+    height: 33px;
+    align-items: center;
+    padding: 0 15px;
+    color: var(--color-black); /* Цвет текста */
+}
+
+.dropdown-menu__link:hover {
+    background-color: #f0f0f0; /* Цвет фона при наведении */
+}
+
+/* Показываем меню при наведении на родителя */
+.dropdown-trigger:hover .dropdown-menu {
+    display: block;
+}
