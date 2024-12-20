@@ -1,0 +1,225 @@
+@import "components/header.css";
+@import "components/box.css";
+
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+    vertical-align: baseline;
+    border: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* Variables надо добавить box разметка не точная*/
+
+:root {
+    /*color-*/
+    --color-white: #ffffff;
+    --color-black: #000000;
+    --color-black-transparent: #00000019;
+    --color-davys-grey: #4D4D4D;
+    --color-pewter-blue: #81ADC8;
+    --color-vermillion: #CD4631;
+    --color-champagne: #F7EDE8;
+    --color-alice-blue: #EDF3F7
+
+}
+
+/* Global */
+
+.page-body {
+    width: 1440px;
+    margin: auto;
+    padding: 0;
+    font-family: "Montserrat Alternates", serif;
+    font-weight: 500;
+    font-style: normal;
+
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+    /*align-content: start;*/
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a.hover {
+    color: var(--color-vermillion);
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.main-footer {
+    height: 618px; /*где то я тут переборщил на пару пикселов*/
+    padding: 140px 140px 80px;
+    color: var(--color-black);
+    background-color: var(--color-white);
+    border-top: 1px solid var(--color-davys-grey); /*тут както надо сделать 1.5*/
+}
+
+.grid-footer {
+    display: grid;
+    grid-template-columns: 1fr max-content 1fr;
+}
+
+.first-block {
+    margin-right: 118px;
+    width: 275px;
+    height: 222px;
+}
+
+.first-block-list {
+    width: 275px;
+    height: 222px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.footer-logo-list {
+    height: 74px;
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer-logo {
+}
+
+.footer-logo-text {
+    margin-left: 24px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: var(--color-davys-grey);
+}
+
+.footer-logo-text-two {
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 1.6;
+    color: var(--color-davys-grey);
+}
+
+.footer-socials {
+    display: flex;
+    justify-content: space-between;
+    width: 122px;
+    height: 24px;
+}
+
+.footer-menu {
+    width: 270px;
+    height: 118px;
+    margin: 0;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    list-style: none;
+    color: var(--color-black);
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-menu a.hover {
+    color: var(--color-vermillion);
+}
+
+.footer-menu-list-one {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.footer-menu-list-two {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.footer-platforms-apps {
+    margin-left: 124px;
+    width: 373px;
+    height: 219px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.footer-platforms {
+    height: 77px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    list-style: none;
+    color: var(--color-davys-grey);
+    text-decoration: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.footer-platforms-list {
+    list-style: none;
+    display: flex;
+    justify-content: space-between
+}
+
+.footer-apps {
+    width: 145px;
+    height: 82px;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 1.6;
+    list-style: none;
+    color: var(--color-davys-grey);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+}
+
+.footer-apps-list {
+    width: 92px;
+    height: 36px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between
+}
+
+.footnote {
+    border-top: 1px solid var(--color-davys-grey); /*тут както надо сделать 1.5*/
+    margin-top: 140px;
+    width: 1160px;
+    height: 39px;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 1.6;
+    list-style: none;
+    color: var(--color-davys-grey);
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end
+}
+
+.footnote-terms-privacy {
+    width: 109px;
+    height: 19px;
+    list-style: none;
+    display: flex;
+    justify-content: space-between
+}
+
+/* grid*/
+
+.page {
+    height: 100%;
+}
