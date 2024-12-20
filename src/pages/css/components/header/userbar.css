@@ -1,0 +1,23 @@
+.userbar {
+    flex-direction: column;
+    align-self: center;
+    align-items: flex-end;
+    display: flex;
+    /*display: flex;*/
+    /*align-items: center;*/
+    /*justify-content: center;*/
+}
+
+.userbar__list {
+    display: flex;
+    font-family: inherit;
+    text-align: center;
+}
+
+.userbar__item {
+    margin-right: 20px;
+}
+
+.userbar__item:last-of-type {
+    margin-right: 0;
+}
