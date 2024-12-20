@@ -1,7 +1,8 @@
 .button {
-    font-family: inherit;
-    font-size: 14px;
-    font-weight: 700;
+    font: var(--font-caption-bold);
+    /*font-family: inherit;*/
+    /*font-size: 14px;*/
+    /*font-weight: 700;*/
     text-align: center;
     text-transform: uppercase;
     color: var(--color-white);

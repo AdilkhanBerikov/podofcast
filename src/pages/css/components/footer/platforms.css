@@ -1,5 +1,6 @@
 .footer__platforms-apps {
-    font-size: 16px;
+    font: var(--font-body-medium);
+    /*font-size: 16px;*/
     /*margin-left: 124px;*/
     /*width: 219px;*/
     height: 219px;

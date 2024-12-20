@@ -39,6 +39,7 @@
 }
 
 .dropdown-menu__link {
+    font: var(--font-body-medium);
     display: flex;
     height: 33px;
     align-items: center;

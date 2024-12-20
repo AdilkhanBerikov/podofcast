@@ -1,0 +1,25 @@
+:root {
+    --font-family-main: "Montserrat Alternates", "Arial", sans-serif;
+
+    --font-body-medium: 500 16px/1.6 var(--font-family-main);
+    --font-caption-medium: 500 14px/1.6 var(--font-family-main);
+    --font-small-medium: 500 12px/1.6 var(--font-family-main);
+
+    --font-body-bold: 700 16px/1.6 var(--font-family-main);
+    --font-caption-bold: 700 14px/1.6 var(--font-family-main);
+    --font-small-bold: 700 12px/1.6 var(--font-family-main);
+
+    --font-heading: 700 96px -0.04em var(--font-family-main);
+    --font-heading-h1: 700 59px/1.2 -0.02em var(--font-family-main);
+    --font-heading-h2: 700 37px -0.02em var(--font-family-main);
+    --font-heading-h3-medium: 500 23px/1.4 var(--font-family-main);
+
+    --font-heading-h2-height: 700 37px/1.4 -0.02em var(--font-family-main);
+    --font-heading-h3-bold: 700 23px/1.4 var(--font-family-main);
+    --font-heading-h3-height: 500 23px/1.6 var(--font-family-main);
+    --font-heading-h3-height-bold: 700 23px/1.6 var(--font-family-main);
+    --font-heading-h3-spacing: 500 23px/1.4 -0.02em var(--font-family-main);
+    --font-heading-h3-spacing-height: 500 23px/1.6 -0.02em var(--font-family-main);
+    --font-heading-h3-spacing-bold: 700 23px/1.4 -0.02em var(--font-family-main);
+    --font-heading-h3-spacing-height-bold: 700 23px/1.6 -0.02em var(--font-family-main);
+}

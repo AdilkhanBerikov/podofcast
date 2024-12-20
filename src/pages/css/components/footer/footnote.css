@@ -1,8 +1,10 @@
 .footnote__copyright {
+    font: var(--font-small-medium);
     height: 19px;
 }
 
 .footnote__terms {
+    font: var(--font-small-medium);
     width: 109px;
     height: 19px;
 }

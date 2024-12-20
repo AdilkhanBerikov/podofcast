@@ -1,11 +1,9 @@
 .page__footer {
     padding-top: 140px;
     padding-bottom: 80px;
-    /*height: 618px;*/
-    /*padding: 140px 140px 80px;*/
-    font-size: 12px;
-    font-weight: 500;
-    line-height: 1.6;
+    /*font-size: 12px;*/
+    /*font-weight: 500;*/
+    /*line-height: 1.6;*/
     text-decoration: none;
     color: var(--color-davys-grey);
     background-color: var(--color-white);

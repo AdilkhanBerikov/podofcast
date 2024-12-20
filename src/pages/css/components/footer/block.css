@@ -8,7 +8,6 @@
 .first-block__list {
     /*width: 275px;*/
     height: 222px;
-    list-style: none;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
@@ -16,11 +15,9 @@
 }
 
 .first-block__item {
-    height: 44px;
 }
 
 .first-block__item:first-of-type {
-    height: 74px;
     display: flex;
     align-items: flex-end;
 }
@@ -38,6 +35,7 @@
 
 .logo__copyright {
     margin-left: 24px;
+    font: var(--font-small-medium);
 }
 /*.first-block__copyright {*/
 /*    margin-left: 24px;*/
@@ -48,7 +46,7 @@
 /*}*/
 
 .first-block__text {
-    font-size: 14px;
+    font: var(--font-caption-medium);
 }
 
 /*.footer-socials {*/
