@@ -1,38 +1,29 @@
 .footer__platforms-apps {
     font: var(--font-body-medium);
-    /*font-size: 16px;*/
-    /*margin-left: 124px;*/
-    /*width: 219px;*/
-    height: 219px;
+
     display: flex;
     flex-direction: column;
-    justify-content: space-between
+    gap: 53px;
 }
 
 .platforms {
-    height: 77px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between
+    gap: 29px;
 }
 
 .platforms__list {
-    height: 22px;
     display: flex;
     justify-content: space-between
 }
 
 .apps {
-    width: 145px;
-    height: 82px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between
+    gap: 20px;
 }
 
 .apps__list {
-    width: 92px;
-    height: 36px;
     display: flex;
-    justify-content: space-between
+    gap: 20px;
 }

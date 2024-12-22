@@ -1,20 +1,11 @@
 .footer-menu {
-    height: 118px;
-    margin: 0;
-    /*font-size: 16px;*/
     font: var(--font-body-medium);
-    color: var(--color-black);
-    display: grid;
-    grid-template-columns: 1fr 1fr;
+    color: var(--color-footer-menu-text);
 }
 
 .footer-menu__list {
-    padding-left: 20px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-}
-
-.footer-menu__list:last-of-type {
-    padding-left: 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 20px;
+    width: 100%;
 }

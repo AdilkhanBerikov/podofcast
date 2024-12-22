@@ -1,11 +1,45 @@
 :root {
-    /*color-*/
     --color-white: #ffffff;
+    --color-antiflash-white: #f0f0f0;
     --color-black: #000000;
-    --color-black-transparent: #00000019;
+    --color-black-transparent: rgba(0, 0, 0, 0.1);
+    --color-black-transparent-dark: rgba(0, 0, 0, 0.4);
     --color-davys-grey: #4D4D4D;
+    --color-chinese-silver: #ccc;
     --color-pewter-blue: #81ADC8;
     --color-vermillion: #CD4631;
     --color-champagne: #F7EDE8;
-    --color-alice-blue: #EDF3F7
+    --color-alice-blue: #EDF3F7;
+
+    /*global*/
+    --color-a-link-text-hover: var(--color-vermillion);
+
+    /*button*/
+    --color-button-text: var(--color-white);
+    --color-button-background: var(--color-black);
+    --color-button-shadow: var(--color-black-transparent);
+    --color-button-hover-text: var(--color-white);
+    --color-button-hover-background: var(--color-vermillion);
+
+    --color-button-alternate-text: var(--color-black);
+    --color-button-alternate-border: var(--color-black);
+    --color-button-alternate-hover-text: var(--color-vermillion);
+    --color-button-alternate-hover-border: var(--color-vermillion);
+
+    /*header*/
+    --color-header-background: var(--color-champagne);
+    --color-header-navigation-text: var(--color-black);
+    --color-header-dropdown-background: var(--color-white);
+    --color-header-dropdown-border: var(--color-chinese-silver);
+    --color-header-dropdown-shadow: var(--color-black-transparent-dark);
+    --color-header-dropdown-text: var(--color-black);
+    --color-header-dropdown-background-hover: var(--color-antiflash-white);
+
+
+    /*footer*/
+    --color-footer-general-text: var(--color-davys-grey);
+    --color-footer-general-background: var(--color-white);
+    --color-footer-general-border: var(--color-davys-grey);
+    --color-footnote-general-border: var(--color-davys-grey);
+    --color-footer-menu-text: var(--color-black);
 }

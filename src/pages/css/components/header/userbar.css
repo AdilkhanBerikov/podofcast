@@ -1,16 +1,12 @@
 .userbar {
+    display: flex;
     flex-direction: column;
     align-self: center;
     align-items: flex-end;
-    display: flex;
-    /*display: flex;*/
-    /*align-items: center;*/
-    /*justify-content: center;*/
 }
 
 .userbar__list {
     display: flex;
-    font-family: inherit;
     text-align: center;
 }
 

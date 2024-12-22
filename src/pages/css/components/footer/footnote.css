@@ -1,15 +1,18 @@
 .footnote__copyright {
-    font: var(--font-small-medium);
-    height: 19px;
+    font: var(--font-small-medium)
 }
 
 .footnote__terms {
     font: var(--font-small-medium);
-    width: 109px;
-    height: 19px;
 }
 
 .footnote__terms-privacy {
     display: flex;
-    justify-content: space-between
+    gap: 24px;
+}
+
+.terms::after {
+    content: "•";
+    position: absolute;
+    margin-left: 10px;
 }
