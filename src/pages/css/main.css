@@ -5,11 +5,6 @@
 @import "global.css";
 @import "variables/fonts.css";
 @import "variables/colors.css";
+@import "variables/borders.css";
 @import "components/header/header.css";
 @import "components/footer/footer.css";
-
-/* Variables надо добавить box разметка не точная*/
-
-/*a.hover {*/
-/*    color: var(--color-vermillion);*/
-/*}*/

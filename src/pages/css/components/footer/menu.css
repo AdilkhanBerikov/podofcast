@@ -9,3 +9,11 @@
     row-gap: 20px;
     width: 100%;
 }
+
+.footer-menu__link {
+    transition: color 0.3s ease;
+}
+
+.footer-menu__link:hover {
+    color: var(--color-link-hover);
+}

@@ -10,16 +10,20 @@
 }
 
 .dropdown-menu__link {
+    padding: 6px 25px 6px 15px;
     font: var(--font-body-medium);
     color: var(--color-header-dropdown-text);
-    padding: 6px 25px 6px 15px;
 
     display: flex;
     align-items: center;;
+
+    transition: color 0.3s ease;
 }
 
 .dropdown-menu__link:hover {
     background-color: var(--color-header-dropdown-background-hover);
+
+    color: var(--color-link-hover);
 }
 
 .dropdown-trigger:hover .dropdown-menu {

@@ -12,6 +12,11 @@
 .header-nav__item {
     color: var(--color-header-navigation-text);
     position: relative;
+    transition: color 0.3s ease;
+}
+
+.header-nav__item:hover {
+    color: var(--color-link-hover);
 }
 
 .header-nav__item:first-of-type {
