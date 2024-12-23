@@ -1,0 +1,27 @@
+.header-nav {
+    align-self: center;
+}
+
+.header-nav__list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 60px;
+}
+
+.header-nav__item {
+    color: var(--color-header-navigation-text);
+    position: relative;
+}
+
+.header-nav__item:first-of-type {
+}
+
+.header-nav__item:last-of-type {
+    align-items: center;
+    display: flex
+}
+
+.header-nav__link {
+    font: var(--font-body-bold);
+}

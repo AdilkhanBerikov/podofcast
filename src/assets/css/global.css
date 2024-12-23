@@ -1,0 +1,23 @@
+*{
+    box-sizing: border-box;
+}
+
+.page{
+    height: 100%;
+}
+
+.page__body {
+    min-height: 100%;
+    display: grid;
+    grid-template-rows: min-content 1fr min-content;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.img {
+    max-width: 100%;
+    height: auto;
+}

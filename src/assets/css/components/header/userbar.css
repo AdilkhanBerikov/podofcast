@@ -1,0 +1,19 @@
+.userbar {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    align-items: flex-end;
+}
+
+.userbar__list {
+    display: flex;
+    text-align: center;
+}
+
+.userbar__item {
+    margin-right: 20px;
+}
+
+.userbar__item:last-of-type {
+    margin-right: 0;
+}

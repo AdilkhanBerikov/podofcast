@@ -1,0 +1,18 @@
+.footnote__copyright {
+    font: var(--font-small-medium)
+}
+
+.footnote__terms {
+    font: var(--font-small-medium);
+}
+
+.footnote__terms-privacy {
+    display: flex;
+    gap: 24px;
+}
+
+.terms::after {
+    content: "•";
+    position: absolute;
+    margin-left: 10px;
+}

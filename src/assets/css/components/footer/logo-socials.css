@@ -1,0 +1,25 @@
+.footer__company-info {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.footer__logo {
+    display: flex;
+    align-items: flex-end;
+}
+
+.footer__socials {
+    display: flex;
+    gap: 25px;
+}
+
+.logo__copyright {
+    margin-left: 24px;
+    font: var(--font-small-medium);
+}
+
+.logo__text {
+    font: var(--font-caption-medium);
+}
+

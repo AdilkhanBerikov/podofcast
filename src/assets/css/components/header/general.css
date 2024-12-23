@@ -1,0 +1,8 @@
+.page__header {
+    background-color: var(--color-header-background);
+}
+
+.header__logo {
+    margin-right: 123px;
+    height: 74px;
+}

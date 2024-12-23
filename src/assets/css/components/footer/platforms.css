@@ -1,0 +1,29 @@
+.footer__platforms-apps {
+    font: var(--font-body-medium);
+
+    display: flex;
+    flex-direction: column;
+    gap: 53px;
+}
+
+.platforms {
+    display: flex;
+    flex-direction: column;
+    gap: 29px;
+}
+
+.platforms__list {
+    display: flex;
+    justify-content: space-between
+}
+
+.apps {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.apps__list {
+    display: flex;
+    gap: 20px;
+}
