@@ -2,14 +2,6 @@
     font: var(--font-small-medium)
 }
 
-.footnote-copyright__link {
-    transition: color 0.3s ease;
-}
-
-.footnote-copyright__link:hover {
-    color: var(--color-link-hover);
-}
-
 .footnote__terms {
     font: var(--font-small-medium);
 }
@@ -23,20 +15,4 @@
     content: "•";
     position: absolute;
     margin-left: 10px;
-}
-
-.terms__link {
-    transition: color 0.3s ease;
-}
-
-.terms__link:hover {
-    color: var(--color-link-hover);
-}
-
-.terms-privacy__link {
-    transition: color 0.3s ease;
-}
-
-.terms-privacy__link:hover {
-    color: var(--color-link-hover);
 }

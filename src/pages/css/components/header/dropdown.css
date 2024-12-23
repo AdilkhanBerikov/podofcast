@@ -15,15 +15,11 @@
     color: var(--color-header-dropdown-text);
 
     display: flex;
-    align-items: center;;
-
-    transition: color 0.3s ease;
+    align-items: center;
 }
 
 .dropdown-menu__link:hover {
     background-color: var(--color-header-dropdown-background-hover);
-
-    color: var(--color-link-hover);
 }
 
 .dropdown-trigger:hover .dropdown-menu {
