@@ -1,0 +1,4 @@
+.page__main {
+    background-color: var(--color-main-landing-background);
+}
+/*кажется надо будет засунуть landing в еще один див, так как не весь мэйен такого цвета*/
