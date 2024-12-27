@@ -16,6 +16,7 @@
 }
 
 .grid.-index {
-    /*grid-template-columns: min-content max-content 1fr min-content;*/
-    /*position: relative;*/
+    grid-template-rows: min-content;
+    grid-template-columns: repeat(12, 1fr);
+    gap: 20px;
 }

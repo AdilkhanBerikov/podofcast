@@ -1,0 +1,17 @@
+.main-section {
+    grid-column: 1 / 13;
+    position: relative;
+}
+
+.main-section::before {
+    content: "";
+    background-image: url("../../../../images/background/bckgMainSection.png");
+    background-position: 0 -52px;
+    background-repeat: no-repeat;
+    background-size: 1684px;
+    width: 100vw;
+    margin-left: -444px;
+    position: absolute;
+    inset: 0;
+    z-index: -1;
+}

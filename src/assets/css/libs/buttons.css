@@ -38,3 +38,8 @@
 
     box-shadow: 6px 6px 0 var(--color-button-shadow);
 }
+
+.heading__button-big:hover {
+    color: var(--color-button-hover-text);
+    background: var(--color-button-hover-background);
+}

@@ -1,4 +1,5 @@
 .page__main {
     background-color: var(--color-main-landing-background);
+    z-index: 0;
 }
-/*кажется надо будет засунуть landing в еще один див, так как не весь мэйен такого цвета*/
+/*кажется надо будет засунуть main-section в еще один див, так как не весь мэйен такого цвета*/

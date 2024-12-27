@@ -1,0 +1,24 @@
+.main-section__heading {
+    font: var(--font-body-medium);
+
+    /*display: flex;*/
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+    text-align: center;
+}
+
+.heading__text {
+    margin: 40px 0;
+
+    font: var(--font-heading);
+    letter-spacing: -0.04em;
+    line-height: 1;
+    color: var(--color-main-heading-text);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.heading__accent {
+    color: var(--color-main-heading-text-accent);
+}

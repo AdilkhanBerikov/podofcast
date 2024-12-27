@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="2ecbd55c-47a0-4bc3-a503-b2b59dda66da" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/css/components/main/main-section/covers.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/components/main/main-section/general.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/components/main/main-section/heading.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/components/main/main-section/platforms.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/variables/dimensions.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/common/grids.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/common/grids.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/general.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/landing/background-elements.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/landing/covers.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/landing/general.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/landing/heading.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/landing/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/main-section/main-section.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/landing/platforms.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/libs/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/libs/buttons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/variables/borders.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/variables/borders.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/variables/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/variables/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/covers/mind-cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/covers/self-confidence-cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/covers/social-cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/covers/tesla-cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/covers/women-cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;customColor&quot;: &quot;&quot;,
+  &quot;associatedIndex&quot;: 8
+}</component>
+  <component name="ProjectId" id="2qjsrSC69OLtSYwbu3MGELZyD3m" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-WS-241.18034.50" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="2ecbd55c-47a0-4bc3-a503-b2b59dda66da" name="Changes" comment="" />
+      <created>1735187518159</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1735187518159</updated>
+      <workItem from="1735187520691" duration="15475000" />
+      <workItem from="1735217329711" duration="11563000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

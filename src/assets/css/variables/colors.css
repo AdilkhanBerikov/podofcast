@@ -48,6 +48,9 @@
     /*main*/
     --color-main-landing-background: var(--color-champagne);
 
-    --color-main-heading-text-black: var(--color-black);
-    --color-main-heading-text-vermillion: var(--color-vermillion);
+    --color-main-heading-text: var(--color-black);
+    --color-main-heading-text-accent: var(--color-vermillion);
+
+    /*main-section*/
+    --color-cover-heading-text: var(--color-pewter-blue);
 }

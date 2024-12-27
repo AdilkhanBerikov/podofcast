@@ -1,0 +1,73 @@
+.main-section__covers {
+    /*display: grid;*/
+    /*grid-template-columns: repeat(3, 1fr);*/
+    /*gap: 20px;*/
+}
+
+.covers__list {
+    /*grid-column: 1 / 4;*/
+
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.covers__item {
+}
+
+.cover {
+    width: var(--main-section-cover-width);
+    height: var(--main-section-cover-height);
+    padding: 20px;
+    border-radius: var(--border-radius-cover);
+    background-color: var(--color-black);
+
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.cover__socials {
+    display: flex;
+    gap: 10px;
+}
+
+.cover__heading {
+    color: var(--color-cover-heading-text);
+    font: var(--font-h2);
+    line-height: 1.2;
+    letter-spacing: -0.04em;
+
+    align-self: flex-start;
+}
+
+.tesla-cover {
+    background-image: url("../../../../../assets/images/covers/teslaAutopilotCover.png");
+    background-repeat: no-repeat;
+    background-size: 373px;
+}
+
+.confidence-cover {
+    background-image: url("../../../../../assets/images/covers/selfConfidenceCover.png");
+    background-repeat: no-repeat;
+    background-size: 373px;
+}
+
+.mind-cover {
+    background-image: url("../../../../../assets/images/covers/perplexedMindCover.png");
+    background-repeat: no-repeat;
+    background-size: 373px;
+}
+
+.rights-cover {
+    background-image: url("../../../../../assets/images/covers/womensRightsCover.png");
+    background-repeat: no-repeat;
+    background-size: 373px;
+}
+
+.social-cover {
+    background-image: url("../../../../../assets/images/covers/socialClassCover.png");
+    background-repeat: no-repeat;
+    background-size: 373px;
+}

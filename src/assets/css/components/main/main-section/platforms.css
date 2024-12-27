@@ -1,0 +1,26 @@
+.main-section__platforms {
+    margin: 120px 0 140px 0;
+    padding: 43px 0;
+
+    border-top: var(--border-landing-platforms);
+    border-bottom: var(--border-landing-platforms);
+}
+
+.main-platforms__list {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    align-items: center;
+
+    line-height: 0;
+}
+
+.main-platforms__title {
+    font: var(--font-h3);
+    letter-spacing: -0.02em;
+}
+
+.main-platforms__item {
+    display: flex;
+    justify-content: center;
+}
