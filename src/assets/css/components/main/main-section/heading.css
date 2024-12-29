@@ -1,14 +1,10 @@
 .main-section__heading {
     font: var(--font-body-medium);
-
-    /*display: flex;*/
-    /*flex-direction: column;*/
-    /*align-items: center;*/
     text-align: center;
 }
 
 .heading__text {
-    margin: 40px 0;
+    padding: 40px 0;
 
     font: var(--font-heading);
     letter-spacing: -0.04em;

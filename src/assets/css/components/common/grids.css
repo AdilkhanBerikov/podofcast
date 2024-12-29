@@ -16,7 +16,7 @@
 }
 
 .grid.-index {
-    grid-template-rows: min-content;
-    grid-template-columns: repeat(12, 1fr);
-    gap: 20px;
+    /*grid-template-rows: min-content;*/
+    /*grid-template-columns: repeat(12, 1fr);*/
+    /*gap: 20px;*/
 }

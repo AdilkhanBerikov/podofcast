@@ -1,17 +1,18 @@
 .main-section {
-    grid-column: 1 / 13;
     position: relative;
+    background-color: var(--color-main-landing-background);
+    padding-bottom: 140px;
 }
 
 .main-section::before {
     content: "";
     background-image: url("../../../../images/background/bckgMainSection.png");
-    background-position: 0 -52px;
+    background-position: -112px -52px;
     background-repeat: no-repeat;
     background-size: 1684px;
     width: 100vw;
-    margin-left: -444px;
+    /*margin-left: -444px;*/
     position: absolute;
     inset: 0;
-    z-index: -1;
+    /*z-index: -1;*/
 }

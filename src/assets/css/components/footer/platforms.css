@@ -6,7 +6,7 @@
     gap: 53px;
 }
 
-.footer-platforms {
+.footer__platforms {
     display: flex;
     flex-direction: column;
     gap: 29px;

@@ -5,31 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ecbd55c-47a0-4bc3-a503-b2b59dda66da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/css/components/main/main-section/covers.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/components/main/main-section/general.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/components/main/main-section/heading.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/components/main/main-section/platforms.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/variables/dimensions.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/components/common/grids.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/common/grids.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/footer/platforms.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/footer/platforms.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/general.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/landing/background-elements.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/landing/covers.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/landing/general.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/landing/heading.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/landing/landing.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/main-section/main-section.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/landing/platforms.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/main-section/covers.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/main-section/covers.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/main-section/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/main-section/general.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/main-section/heading.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/main-section/heading.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/main-section/platforms.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/main-section/platforms.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/libs/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/libs/buttons.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/main.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/variables/borders.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/variables/borders.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/variables/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/variables/colors.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/covers/mind-cover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/covers/self-confidence-cover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/covers/social-cover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/covers/tesla-cover.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/covers/women-cover.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/variables/dimensions.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/variables/dimensions.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -78,6 +64,9 @@
       <updated>1735187518159</updated>
       <workItem from="1735187520691" duration="15475000" />
       <workItem from="1735217329711" duration="11563000" />
+      <workItem from="1735280372806" duration="773000" />
+      <workItem from="1735291784109" duration="6884000" />
+      <workItem from="1735459314974" duration="6272000" />
     </task>
     <servers />
   </component>

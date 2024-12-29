@@ -1,26 +1,17 @@
-.main-section__covers {
-    /*display: grid;*/
-    /*grid-template-columns: repeat(3, 1fr);*/
-    /*gap: 20px;*/
-}
-
 .covers__list {
-    /*grid-column: 1 / 4;*/
-
     display: flex;
     justify-content: center;
     gap: 20px;
 }
 
-.covers__item {
-}
-
 .cover {
-    width: var(--main-section-cover-width);
-    height: var(--main-section-cover-height);
+    width: 373px;
+    height: 373px;
     padding: 20px;
-    border-radius: var(--border-radius-cover);
+    border-radius: var(--border-radius-large);
     background-color: var(--color-black);
+    background-repeat: no-repeat;
+    background-size: 373px;
 
     display: flex;
     justify-content: space-between;
@@ -44,30 +35,20 @@
 
 .tesla-cover {
     background-image: url("../../../../../assets/images/covers/teslaAutopilotCover.png");
-    background-repeat: no-repeat;
-    background-size: 373px;
 }
 
 .confidence-cover {
     background-image: url("../../../../../assets/images/covers/selfConfidenceCover.png");
-    background-repeat: no-repeat;
-    background-size: 373px;
 }
 
 .mind-cover {
     background-image: url("../../../../../assets/images/covers/perplexedMindCover.png");
-    background-repeat: no-repeat;
-    background-size: 373px;
 }
 
 .rights-cover {
     background-image: url("../../../../../assets/images/covers/womensRightsCover.png");
-    background-repeat: no-repeat;
-    background-size: 373px;
 }
 
 .social-cover {
     background-image: url("../../../../../assets/images/covers/socialClassCover.png");
-    background-repeat: no-repeat;
-    background-size: 373px;
 }
