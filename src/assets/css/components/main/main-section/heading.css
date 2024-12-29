@@ -4,7 +4,8 @@
 }
 
 .heading__text {
-    padding: 40px 0;
+    padding-top: 40px;
+    margin-bottom: 40px;
 
     font: var(--font-heading);
     letter-spacing: -0.04em;
@@ -17,4 +18,12 @@
 
 .heading__accent {
     color: var(--color-main-heading-text-accent);
+}
+
+.heading__body-text {
+    margin-bottom: 60px;
+}
+
+.heading__button {
+    margin-bottom: 120px;
 }

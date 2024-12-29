@@ -1,3 +1,7 @@
+.main-section__covers {
+    margin-bottom: 120px;
+}
+
 .covers__list {
     display: flex;
     justify-content: center;
@@ -5,13 +9,16 @@
 }
 
 .cover {
-    width: 373px;
-    height: 373px;
+    --cover-size: 373px;
+    position: relative;
+
+    width: var(--cover-size);
+    height: var(--cover-size);
     padding: 20px;
     border-radius: var(--border-radius-large);
-    background-color: var(--color-black);
-    background-repeat: no-repeat;
-    background-size: 373px;
+    /*background-color: var(--color-black);*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: var(--cover-size);*/
 
     display: flex;
     justify-content: space-between;
@@ -19,36 +26,28 @@
     align-items: flex-end;
 }
 
+.cover__background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    /*width: 100%;*/
+    /*height: 100%;*/
+    /*object-fit: cover;*/
+    /*visibility: visible;*/
+}
+
 .cover__socials {
+    position: relative;
     display: flex;
     gap: 10px;
 }
 
 .cover__heading {
+    position: relative;
     color: var(--color-cover-heading-text);
     font: var(--font-h2);
     line-height: 1.2;
     letter-spacing: -0.04em;
 
     align-self: flex-start;
-}
-
-.tesla-cover {
-    background-image: url("../../../../../assets/images/covers/teslaAutopilotCover.png");
-}
-
-.confidence-cover {
-    background-image: url("../../../../../assets/images/covers/selfConfidenceCover.png");
-}
-
-.mind-cover {
-    background-image: url("../../../../../assets/images/covers/perplexedMindCover.png");
-}
-
-.rights-cover {
-    background-image: url("../../../../../assets/images/covers/womensRightsCover.png");
-}
-
-.social-cover {
-    background-image: url("../../../../../assets/images/covers/socialClassCover.png");
 }
