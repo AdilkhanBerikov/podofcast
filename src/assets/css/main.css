@@ -1,12 +1,9 @@
 @import "../../../node_modules/reset.css/reset.css";
+@import "variables/variables.css";
 @import "libs/libs.css";
-@import "components/common/common.css";
 @import "font.css";
 @import "global.css";
-@import "variables/fonts.css";
-@import "variables/colors.css";
-@import "variables/borders.css";
-@import "variables/dimensions.css";
+@import "components/common/common.css";
 @import "components/header/header.css";
 @import "components/footer/footer.css";
 @import "components/main/main.css";
