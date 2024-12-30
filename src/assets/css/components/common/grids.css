@@ -1,15 +1,15 @@
-.grid{
+.grid {
     display: grid;
 }
 
-.grid.-header{
+.grid.-header {
     grid-template-columns: min-content max-content 1fr min-content;
     position: relative;
     margin-top: 24px;
     margin-bottom: 24px;
 }
 
-.grid.-footer{
+.grid.-footer {
     grid-template-rows: min-content min-content;
     align-items: start;
     position: relative;

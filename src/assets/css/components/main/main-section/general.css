@@ -1,0 +1,12 @@
+.main-section {
+    position: relative;
+    background-color: var(--color-main-landing-background);
+    padding-bottom: 140px;
+
+    background-image: url("../../../../images/background/bckgMainSection.png");
+    background-position: -11vw -3vw;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100vw;
+    /*inset: 0;*/
+}

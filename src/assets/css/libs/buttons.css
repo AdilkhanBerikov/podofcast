@@ -8,6 +8,7 @@
     box-shadow: 3px 3px 0 var(--color-button-shadow);
     border: none;
     border-radius: var(--border-radius);
+    cursor: pointer;
     transition: color 0.3s ease, background 0.3s ease;
 }
 
@@ -30,4 +31,10 @@
     color: var(--color-button-alternate-hover-text);
     background: none;
     border-color: var(--color-button-alternate-hover-border);
+}
+
+.button.-big {
+    padding: 21px 48px;
+
+    box-shadow: 6px 6px 0 var(--color-button-shadow);
 }

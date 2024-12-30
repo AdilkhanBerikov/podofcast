@@ -44,4 +44,13 @@
     --color-footnote-general-border: var(--color-davys-grey);
 
     --color-footer-menu-text: var(--color-black);
+
+    /*main*/
+    --color-main-landing-background: var(--color-champagne);
+
+    --color-main-heading-text: var(--color-black);
+    --color-main-heading-text-accent: var(--color-vermillion);
+
+    /*main-section*/
+    --color-cover-heading-text: var(--color-pewter-blue);
 }

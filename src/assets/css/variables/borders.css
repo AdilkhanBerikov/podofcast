@@ -1,3 +1,7 @@
 :root {
     --border-radius: 8px;
+
+    --border-radius-large: 12px;
+
+    --border-landing-platforms: 2px solid var(--color-davys-grey);
 }

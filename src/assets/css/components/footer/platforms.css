@@ -6,24 +6,24 @@
     gap: 53px;
 }
 
-.platforms {
+.footer__platforms {
     display: flex;
     flex-direction: column;
     gap: 29px;
 }
 
-.platforms__list {
+.footer-platforms__list {
     display: flex;
     justify-content: space-between
 }
 
-.apps {
+.footer__apps {
     display: flex;
     flex-direction: column;
     gap: 20px;
 }
 
-.apps__list {
+.footer-apps__list {
     display: flex;
     gap: 20px;
 }

@@ -1,0 +1,29 @@
+.main-section__heading {
+    font: var(--font-body-medium);
+    text-align: center;
+}
+
+.heading__text {
+    padding-top: 40px;
+    margin-bottom: 40px;
+
+    font: var(--font-heading);
+    letter-spacing: -0.04em;
+    line-height: 1;
+    color: var(--color-main-heading-text);
+
+    display: flex;
+    flex-direction: column;
+}
+
+.heading__accent {
+    color: var(--color-main-heading-text-accent);
+}
+
+.heading__body-text {
+    margin-bottom: 60px;
+}
+
+.heading__button {
+    margin-bottom: 120px;
+}

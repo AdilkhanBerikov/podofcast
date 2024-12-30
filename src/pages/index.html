@@ -2,6 +2,7 @@
 <html class="page" lang="en">
   <head>
     <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"/>
     <title>PodOfCast</title>
     <link rel="stylesheet" href="../assets/css/main.css">
 <!--    <link href="https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">-->
@@ -39,75 +40,156 @@
       </div>
     </header>
 
-  <main class="container">
-
-    <h1>Your Daily Podcast</h1>
-    <p>We cover all kinds of categories and<br>
-      a weekly special guest.</p>
-
-    <a href="blank.html">Subscribe</a>
-
-    <section>
-      <h2>Covers</h2>
-      <ul>
-        <li>
-          <h3>Tesla Autopilot</h3>
-        </li>
-        <li>
-          <h3>Self-confidence</h3>
-        </li>
-        <li>
-          <h3>Perplexed Mind</h3>
-        </li>
-        <li>
-          <h3>Womens Rights</h3>
-        </li>
-        <li>
-          <h3>Social Class</h3>
-        </li>
-      </ul>
+  <main class="page__main">
+    <section class="main-section">
+      <div class="box">
+        <div class="main-section__heading">
+          <h1 class="heading__text">Your Daily<span class="heading__accent">Podcast</span></h1>
+          <p class="heading__body-text">We cover all kinds of categories and<br>
+            a weekly special guest.</p>
+          <button class="button -big heading__button" type="button">Subscribe</button>
+        </div>
+        <div class="main-section__covers">
+          <ul class="covers__list">
+            <li class="covers__item">
+              <figure class="cover">
+                <img class="cover__background" src="../assets/images/covers/teslaAutopilotCover.png" width="373" height="373" alt="Tesla Autopilot Cover Background image">
+                <ul class="cover__socials">
+                  <li class="cover-socials__item">
+                    <a href="https://music.youtube.com/googlepodcasts">
+                      <img src="../assets/images/platforms/googlepodcastMiniWhiteLogo.svg" width="24" height="24" alt="Google Podcasts">
+                    </a>
+                  </li>
+                  <li class="cover-socials__item">
+                    <a href="https://www.spotify.com">
+                      <img src="../assets/images/platforms/spotifyMiniWhiteLogo.svg" width="24" height="24" alt="Spotify">
+                    </a>
+                  </li>
+                  <li class="cover-socials__item">
+                    <a href="https://www.youtube.com">
+                      <img src="../assets/images/platforms/youtubeMiniWhiteLogo.svg" width="24" height="24" alt="YouTube">
+                    </a>
+                  </li>
+                </ul>
+                <figcaption class="cover__heading">Tesla Autopilot</figcaption>
+              </figure>
+            </li>
+            <li class="covers__item">
+              <figure class="cover">
+                <img class="cover__background" src="../assets/images/covers/selfConfidenceCover.png" width="373" height="373" alt="Self-confidence Cover Background image">
+                <ul class="cover__socials">
+                  <li class="cover-socials__item">
+                    <a href="https://music.youtube.com/googlepodcasts">
+                      <img src="../assets/images/platforms/googlepodcastMiniWhiteLogo.svg" width="24" height="24" alt="Google Podcasts">
+                    </a>
+                  </li>
+                  <li class="cover-socials__item">
+                    <a href="https://www.spotify.com">
+                      <img src="../assets/images/platforms/spotifyMiniWhiteLogo.svg" width="24" height="24" alt="Spotify">
+                    </a>
+                  </li>
+                  <li class="cover-socials__item">
+                    <a href="https://www.youtube.com">
+                      <img src="../assets/images/platforms/youtubeMiniWhiteLogo.svg" width="24" height="24" alt="YouTube">
+                    </a>
+                  </li>
+                </ul>
+                <figcaption class="cover__heading">Self-confidence</figcaption>
+              </figure>
+            </li>
+            <li class="covers__item">
+              <figure class="cover">
+                <img class="cover__background" src="../assets/images/covers/perplexedMindCover.png" width="373" height="373" alt="Perplexed Mind Cover Background image">
+                <ul class="cover__socials">
+                  <li class="cover-socials__item">
+                    <a href="https://music.youtube.com/googlepodcasts">
+                      <img src="../assets/images/platforms/googlepodcastMiniWhiteLogo.svg" width="24" height="24" alt="Google Podcasts">
+                    </a>
+                  </li>
+                  <li class="cover-socials__item">
+                    <a href="https://www.spotify.com">
+                      <img src="../assets/images/platforms/spotifyMiniWhiteLogo.svg" width="24" height="24" alt="Spotify">
+                    </a>
+                  </li>
+                  <li class="cover-socials__item">
+                    <a href="https://www.youtube.com">
+                      <img src="../assets/images/platforms/youtubeMiniWhiteLogo.svg" width="24" height="24" alt="YouTube">
+                    </a>
+                  </li>
+                </ul>
+                <figcaption class="cover__heading">Perplexed Mind</figcaption>
+              </figure>
+            </li>
+            <li class="covers__item">
+              <figure class="cover">
+                <img class="cover__background" src="../assets/images/covers/womensRightsCover.png" width="373" height="373" alt="Women's Rights Cover Background image">
+                <ul class="cover__socials">
+                  <li class="cover-socials__item">
+                    <a href="https://music.youtube.com/googlepodcasts">
+                      <img src="../assets/images/platforms/googlepodcastMiniWhiteLogo.svg" width="24" height="24" alt="Google Podcasts">
+                    </a>
+                  </li>
+                  <li class="cover-socials__item">
+                    <a href="https://www.spotify.com">
+                      <img src="../assets/images/platforms/spotifyMiniWhiteLogo.svg" width="24" height="24" alt="Spotify">
+                    </a>
+                  </li>
+                  <li class="cover-socials__item">
+                    <a href="https://www.youtube.com">
+                      <img src="../assets/images/platforms/youtubeMiniWhiteLogo.svg" width="24" height="24" alt="YouTube">
+                    </a>
+                  </li>
+                </ul>
+                <figcaption class="cover__heading">Women's Rights</figcaption>
+              </figure>
+            </li>
+            <li class="covers__item">
+              <figure class="cover">
+                <img class="cover__background" src="../assets/images/covers/socialClassCover.png" width="373" height="373" alt="Social Class Cover Background image">
+                <ul class="cover__socials">
+                  <li class="cover-socials__item">
+                    <a href="https://music.youtube.com/googlepodcasts">
+                      <img src="../assets/images/platforms/googlepodcastMiniWhiteLogo.svg" width="24" height="24" alt="Google Podcasts">
+                    </a>
+                  </li>
+                  <li class="cover-socials__item">
+                    <a href="https://www.spotify.com">
+                      <img src="../assets/images/platforms/spotifyMiniWhiteLogo.svg" width="24" height="24" alt="Spotify">
+                    </a>
+                  </li>
+                  <li class="cover-socials__item">
+                    <a href="https://www.youtube.com">
+                      <img src="../assets/images/platforms/youtubeMiniWhiteLogo.svg" width="24" height="24" alt="YouTube">
+                    </a>
+                  </li>
+                </ul>
+                <figcaption class="cover__heading">Social Class</figcaption>
+              </figure>
+            </li>
+          </ul>
+        </div>
+        <div class="main-section__platforms">
+          <ul class="main-platforms__list">
+            <li class="main-platforms__title">Supported by:</li>
+            <li class="main-platforms__item">
+              <a href="https://www.spotify.com">
+                <img src="../assets/images/platforms/spotify.png" width="128" height="34" alt="Spotify">
+              </a>
+            </li>
+            <li class="main-platforms__item">
+              <a href="https://music.youtube.com/googlepodcasts">
+                <img src="../assets/images/platforms/googlepodcast.png" width="198" height="36" alt="Google Podcasts">
+              </a>
+            </li>
+            <li class="main-platforms__item">
+              <a href="https://www.youtube.com">
+                <img src="../assets/images/platforms/youtube.png" width="124" height="28" alt="YouTube">
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
     </section>
-
-    <section>
-      <h2>Platforms</h2>
-      <p>Supported by:</p>
-      <ul>
-        <li><a href="https://music.youtube.com/googlepodcasts">
-          <img src="../assets/images/platforms/googlepodcast.svg" width="122" height="22" alt="Google Podcasts">
-        </a></li>
-        <li><a href="https://www.spotify.com">
-          <img src="../assets/images/platforms/spotify.svg" width="80" height="22" alt="Spotify">
-        </a></li>
-        <li><a href="https://www.youtube.com">
-          <img src="../assets/images/platforms/youtube.svg" width="94" height="22" alt="YouTube">
-        </a></li>
-      </ul>
-    </section>
-
-    <section>
-      <h2>Talk. Listen. Get inspired<br>
-        by every minute of it.</h2>
-      <figure>
-        <a href="blank.html">
-          <img src="../assets/images/illustration/illustration.svg" width="275" height="275" alt="a man's head with question marks in a cloud">
-        </a>
-      </figure>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-        Curabitur ac ultrices odio. </p>
-      <a href="blank.html">
-        <img src="../assets/images/illustration/illustration2.svg" width="275" height="275" alt="Light bulb of ideas">
-      </a>
-      <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.<br>
-        Curabitur ac ultrices odio. </p>
-    </section>
-
-    <section>
-      <h2>One of the best daily podcasts that<br>
-        covers every topic on Spotify.</h2>
-      <p>John Smith</p>
-      <p>Social Community Manager</p>
-    </section>
-
   </main>
 
   <footer class="page__footer">
@@ -148,9 +230,9 @@
         </section>
 
         <section class="footer__platforms-apps">
-          <div class="platforms">
+          <div class="footer__platforms">
             <p>Listen to episodes on your fav platform:</p>
-            <ul class="platforms__list">
+            <ul class="footer-platforms__list">
               <li><a href="https://music.youtube.com/googlepodcasts">
                 <img src="../assets/images/platforms/googlepodcast.png" width="122" height="22" alt="Google Podcasts">
               </a></li>
@@ -162,9 +244,9 @@
               </a></li>
             </ul>
           </div>
-          <div class="apps">
+          <div class="footer__apps">
             <p>App available on:</p>
-            <ul class="apps__list">
+            <ul class="footer-apps__list">
               <li><a href="https://www.appstore.com">
                 <img src="../assets/images/apps/app_store.svg" width="36" height="36" alt="AppStore">
               </a></li>
