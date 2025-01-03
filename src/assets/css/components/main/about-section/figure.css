@@ -1,0 +1,20 @@
+.about-section__figures {
+    margin-bottom: 120px;
+
+    display: flex;
+    justify-content: space-between;
+    /*display: grid;*/
+    /*grid-template-columns: 1fr 1fr;*/
+    /*gap: 216px*/
+}
+
+.about-section__figure {
+    font: var(--font-body-medium);
+    /*display: grid;*/
+    /*grid-template-rows: max-content max-content;*/
+    /*gap: 40px;*/
+}
+
+.figure-img {
+    margin-bottom: 40px;
+}

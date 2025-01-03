@@ -4,7 +4,28 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2ecbd55c-47a0-4bc3-a503-b2b59dda66da" name="Changes" comment="" />
+    <list default="true" id="2ecbd55c-47a0-4bc3-a503-b2b59dda66da" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/css/components/main/about-section/about-section.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/components/main/about-section/figure.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/components/main/about-section/general.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/components/main/about-section/heading.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/variables/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/variables/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/illustration/Face1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/illustration/Face5.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/illustration/Fire.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/illustration/illustration.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/illustration/illustration2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/illustration/scribble-1.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/illustration/scribble-2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/illustration/scribble.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/illustration/shiningstars.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/illustration/sparkle.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/illustration/star.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/illustration/star2.svg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,10 +76,24 @@
       <workItem from="1735291784109" duration="6884000" />
       <workItem from="1735459314974" duration="6272000" />
       <workItem from="1735482954174" duration="9145000" />
+      <workItem from="1735585098389" duration="4617000" />
+      <workItem from="1735748754962" duration="5920000" />
+      <workItem from="1735892918268" duration="4574000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>
