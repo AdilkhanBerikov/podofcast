@@ -1,0 +1,53 @@
+.about-section__quote-box {
+    position: relative;
+    background-color: var(--color-about-quote-box);
+    border-radius: var(--border-radius);
+
+    padding-top: 17px;
+    padding-bottom: 40px;
+    margin-bottom: 140px;
+}
+
+.about-section__background-illustration {
+    /*width: 100%;
+    /*height: auto;
+    /*object-fit: contain;*/
+    position: absolute;
+    inset: -78px -57px 49px -60px;
+}
+
+.about-section__quote-mark {
+    color: var(--color-about-quote-mark);
+    font: var(--font-heading);
+    letter-spacing: -0.02em;
+}
+
+.about-section__quote-text {
+    font: var(--font-h2);
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+
+    margin-bottom: 40px;
+}
+
+.about-section__quote-author {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.quote-author {
+    font: var(--font-caption-medium);
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.quote-platform {
+    font: var(--font-caption-bold);
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

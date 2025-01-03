@@ -53,4 +53,7 @@
 
     /*main-section*/
     --color-cover-heading-text: var(--color-pewter-blue);
+
+    --color-about-quote-box: var(--color-champagne);
+    --color-about-quote-mark: var(--color-vermillion)
 }
