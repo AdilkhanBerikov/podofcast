@@ -3,31 +3,40 @@
     background-color: var(--color-about-quote-box);
     border-radius: var(--border-radius);
 
-    padding-top: 17px;
+    padding-top: 134px;
     padding-bottom: 40px;
     margin-bottom: 140px;
 }
 
-.about-section__background-illustration {
-    /*width: 100%;
-    /*height: auto;
-    /*object-fit: contain;*/
+.about-section__quote-box::before {
+    content: '';
     position: absolute;
     inset: -78px -57px 49px -60px;
+    background-image: url("../../../../../assets/images/background/bckgAboutSection.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: top center;
+    pointer-events: none;
 }
 
-.about-section__quote-mark {
-    color: var(--color-about-quote-mark);
-    font: var(--font-heading);
-    letter-spacing: -0.02em;
-}
-
-.about-section__quote-text {
+.blockquote {
     font: var(--font-h2);
     line-height: 1.4;
     letter-spacing: -0.02em;
 
     margin-bottom: 40px;
+}
+
+.blockquote::before {
+    content: '“';
+    position: absolute;
+    top: 29px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    color: var(--color-about-quote-mark);
+    font: var(--font-heading);
+    letter-spacing: -0.02em;
 }
 
 .about-section__quote-author {

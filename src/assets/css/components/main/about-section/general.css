@@ -12,7 +12,7 @@
     /*z-index: 1;*/
 }
 
-.about-section::before {
+.vermillion-scribble::before {
     content: '';
     position: absolute;
     top: -74px;
