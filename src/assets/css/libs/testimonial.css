@@ -1,0 +1,43 @@
+.testimonial {
+    font: var(--font-h3);
+    line-height: 1.6;
+    font-weight: 500;
+
+    position: relative;
+
+    margin-bottom: 30px;
+}
+
+.testimonial::before {
+    content: '“';
+    position: absolute;
+    top: 24px;
+    transform: translateY(-100%);
+
+    color: var(--color-about-quote-mark);
+    font: var(--font-heading);
+    letter-spacing: -0.02em;
+}
+
+.testimonial__user-platform {
+    display: flex;
+    gap: 10px;
+
+    margin-bottom: 40px;
+}
+
+.testimonial-author {
+    font: var(--font-caption-medium);
+
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.testimonial-platform {
+    font: var(--font-caption-bold);
+
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}

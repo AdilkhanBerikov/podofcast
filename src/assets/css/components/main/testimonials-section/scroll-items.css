@@ -1,0 +1,24 @@
+.testimonials-section__scroll-list {
+    margin-bottom: 60px;
+
+    display: grid;
+    grid-template-columns: repeat(4, 570px);
+    /*grid-auto-flow: column; !* Расположение элементов в строку *!*/
+    gap: 20px; /* Расстояние между блоками */
+    /*overflow-x: auto; !* Включает горизонтальную прокрутку, если блоков больше, чем доступное пространство *!*/
+    /*padding: 10px;*/
+    /*display: flex;*/
+    /*justify-content: flex-start;*/
+    /*gap: 20px;*/
+
+    /*position: absolute;*/
+}
+
+.testimonials-section__scroll-item {
+    background-color: var(--color-testimonial);
+    border-radius: var(--border-radius);
+    /*width: 570px;*/
+    /*height: 360px;*/
+
+    padding: 132px 40px 0 40px;
+}

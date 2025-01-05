@@ -1,12 +1,47 @@
+.dropdown-trigger {
+    /*cursor: pointer;*/
+}
+
+.dropdown-trigger::after {
+    content: "";
+    display: inline-block;
+    /*background: url("../../../images/arrow_down/Arrow - Down.svg") no-repeat center;*/
+    -webkit-mask: url("../../../images/arrow_down/Arrow - Down.svg") no-repeat center; /* Новая опция */
+    mask: url("../../../images/arrow_down/Arrow - Down.svg") no-repeat center; /* Новая опция */
+    background-color: black; /* ТУТ НАДО ДОБАВИТЬ В КОЛОР ПОСЛЕ ОДОБРЕНИЯ */
+    width: 16px;
+    height: 16px;
+    margin-left: 5px;
+
+    cursor: pointer; /* Новая опция */
+
+    transition: background-color 0.3s ease; /* Новая опция */
+}
+
+.dropdown-trigger:hover::after {
+    background-color: var(--color-scroll-hover); /* ТУТ НАДО ДОБАВИТЬ В КОЛОР ПОСЛЕ ОДОБРЕНИЯ */
+}
+
 .dropdown-menu {
     background-color: var(--color-header-dropdown-background);
-    display: none;
+    /*display: none;*/
     position: fixed;
     top: 75px;
     border: 1px solid var(--color-header-dropdown-border);
     border-radius: 3px;
     box-shadow: 0 10px 10px var(--color-header-dropdown-shadow);
     z-index: 10;
+    opacity: 0; /* Начальное состояние: прозрачное */
+    transform: translateY(-10px); /* Сдвиг вверх */
+    visibility: hidden; /* Скрытие элемента визуально и для фокуса */
+    transition: opacity 0.3s ease, transform 0.3s ease; /* Плавные переходы */
+}
+
+.dropdown-trigger:hover .dropdown-menu {
+    /*display: block;*/
+    opacity: 1; /* Делает видимым */
+    transform: translateY(0); /* Возвращает в исходное положение */
+    visibility: visible; /* Дает возможность фокусировки */
 }
 
 .dropdown-menu__link {
@@ -16,22 +51,10 @@
 
     display: flex;
     align-items: center;
+    transition: background-color 0.3s ease; /* Новая опция */
 }
 
 .dropdown-menu__link:hover {
     background-color: var(--color-header-dropdown-background-hover);
-}
-
-.dropdown-trigger:hover .dropdown-menu {
-    display: block;
-}
-
-.dropdown-trigger::after {
-    content: "";
-    display: inline-block;
-    background: url("../../../images/arrow_down/Arrow - Down.svg") no-repeat center;
-    width: 16px;
-    height: 16px;
-    margin-left: 5px;
 }
 

@@ -55,5 +55,15 @@
     --color-cover-heading-text: var(--color-pewter-blue);
 
     --color-about-quote-box: var(--color-champagne);
-    --color-about-quote-mark: var(--color-vermillion)
+    --color-about-quote-mark: var(--color-vermillion);
+
+    /*testimonials-section*/
+    --color-testimonials-background: var(--color-alice-blue);
+    --color-testimonials-text: var(--color-davys-grey);
+
+    /*testimonial*/
+    --color-testimonial: var(--color-white);
+
+    /*scroll*/
+    --color-scroll-hover: var(--color-vermillion)
 }
