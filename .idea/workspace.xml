@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ecbd55c-47a0-4bc3-a503-b2b59dda66da" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/css/libs/blockquote.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/libs/section.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/about-section/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/about-section/general.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/about-section/quote.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/about-section/quote.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/main-section/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/main-section/general.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/libs/libs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/libs/libs.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -64,7 +68,8 @@
       <workItem from="1735748754962" duration="5920000" />
       <workItem from="1735892918268" duration="5755000" />
       <workItem from="1736004149109" duration="1197000" />
-      <workItem from="1736013765036" duration="3232000" />
+      <workItem from="1736013765036" duration="3439000" />
+      <workItem from="1736068021845" duration="1015000" />
     </task>
     <servers />
   </component>

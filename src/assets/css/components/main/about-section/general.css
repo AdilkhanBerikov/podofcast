@@ -1,7 +1,5 @@
 .about-section {
-    position: relative;
     text-align: center;
-    width: 100vw;
     padding-top: 140px;
 
     /*background-image: url("../../../../images/background/scribble.png");*/
@@ -10,19 +8,4 @@
     /*background-repeat: no-repeat;*/
     /*background-size: 150px 150px;*/
     /*z-index: 1;*/
-}
-
-.vermillion-scribble::before {
-    content: '';
-    position: absolute;
-    top: -74px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: 150px;
-    height: 150px;
-    background-image: url("../../../../images/background/scribble.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    z-index: 10;
-    pointer-events: none;
 }
