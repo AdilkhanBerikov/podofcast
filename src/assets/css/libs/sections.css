@@ -1,0 +1,23 @@
+.section {
+    position: relative;
+    width: 100vw;
+}
+
+.section::before {
+    content: '';
+    position: absolute;
+    top: -74px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 150px;
+    height: 150px;
+    background-image: url("../../images/background/scribble.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.section:first-of-type::before {
+    content: none;
+}
