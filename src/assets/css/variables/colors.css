@@ -30,6 +30,8 @@
     --color-header-background: var(--color-champagne);
     --color-header-navigation-text: var(--color-black);
 
+    --color-header-dropdown-trigger-background-color: var(--color-black);
+    --color-header-dropdown-trigger-background-color-hover: var(--color-vermillion);
     --color-header-dropdown-background: var(--color-white);
     --color-header-dropdown-border: var(--color-chinese-silver);
     --color-header-dropdown-shadow: var(--color-black-transparent-dark);
@@ -65,5 +67,5 @@
     --color-testimonial: var(--color-white);
 
     /*scroll*/
-    --color-scroll-hover: var(--color-vermillion)
+    --color-scroll-hover: var(--color-vermillion);
 }

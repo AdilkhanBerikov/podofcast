@@ -1,40 +1,38 @@
 .dropdown-trigger {
-    /*cursor: pointer;*/
+    cursor: pointer;
 }
 
 .dropdown-trigger::after {
     content: "";
+    margin-left: 5px;
     display: inline-block;
     /*background: url("../../../images/arrow_down/Arrow - Down.svg") no-repeat center;*/
     -webkit-mask: url("../../../images/arrow_down/Arrow - Down.svg") no-repeat center; /* Новая опция */
     mask: url("../../../images/arrow_down/Arrow - Down.svg") no-repeat center; /* Новая опция */
-    background-color: black; /* ТУТ НАДО ДОБАВИТЬ В КОЛОР ПОСЛЕ ОДОБРЕНИЯ */
+    background-color: var(--color-header-dropdown-trigger-background-color);
     width: 16px;
     height: 16px;
-    margin-left: 5px;
-
     cursor: pointer; /* Новая опция */
-
-    transition: background-color 0.3s ease; /* Новая опция */
+    transition: background-color var(--transition-duration); /* Новая опция */
 }
 
 .dropdown-trigger:hover::after {
-    background-color: var(--color-scroll-hover); /* ТУТ НАДО ДОБАВИТЬ В КОЛОР ПОСЛЕ ОДОБРЕНИЯ */
+    background-color: var(--color-header-dropdown-trigger-background-color-hover);
 }
 
 .dropdown-menu {
-    background-color: var(--color-header-dropdown-background);
     /*display: none;*/
-    position: fixed;
-    top: 75px;
-    border: 1px solid var(--color-header-dropdown-border);
-    border-radius: 3px;
-    box-shadow: 0 10px 10px var(--color-header-dropdown-shadow);
-    z-index: 10;
     opacity: 0; /* Начальное состояние: прозрачное */
     transform: translateY(-10px); /* Сдвиг вверх */
     visibility: hidden; /* Скрытие элемента визуально и для фокуса */
-    transition: opacity 0.3s ease, transform 0.3s ease; /* Плавные переходы */
+    position: fixed;
+    top: 75px;
+    z-index: 10;
+    background-color: var(--color-header-dropdown-background);
+    border: 1px solid var(--color-header-dropdown-border);
+    border-radius: 3px;
+    box-shadow: 0 10px 10px var(--color-header-dropdown-shadow);
+    transition: opacity var(--transition-duration), transform var(--transition-duration); /* Плавные переходы */
 }
 
 .dropdown-trigger:hover .dropdown-menu {
@@ -46,15 +44,13 @@
 
 .dropdown-menu__link {
     padding: 6px 25px 6px 15px;
-    font: var(--font-body-medium);
-    color: var(--color-header-dropdown-text);
-
     display: flex;
     align-items: center;
-    transition: background-color 0.3s ease; /* Новая опция */
+    font: var(--font-body-medium);
+    color: var(--color-header-dropdown-text);
+    transition: background-color var(--transition-duration); /* Новая опция */
 }
 
 .dropdown-menu__link:hover {
     background-color: var(--color-header-dropdown-background-hover);
 }
-

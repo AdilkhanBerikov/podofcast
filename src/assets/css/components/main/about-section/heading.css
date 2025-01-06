@@ -1,5 +1,5 @@
 .about-section__heading {
+    margin-bottom: 100px;
     font: var(--font-h1);
     letter-spacing: -0.02em;
-    margin-bottom: 100px;
 }

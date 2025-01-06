@@ -4,15 +4,17 @@
 }
 
 .scroll {
+    color: black;
     cursor: pointer;
+    transition: color var(--transition-duration);
 }
 
-.scroll path {
-    transition: stroke 0.3s ease;
-}
+/*.scroll path {*/
+/*    transition: stroke var(--transition-duration);*/
+/*}*/
 
-.scroll:hover path {
-    stroke: var(--color-scroll-hover);
+.scroll:hover {
+    color: var(--color-scroll-hover);
 }
 
 /*.scroll-left {*/

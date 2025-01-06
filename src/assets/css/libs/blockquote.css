@@ -1,9 +1,8 @@
 .blockquote {
+    margin-bottom: 40px;
     font: var(--font-h2);
     line-height: 1.4;
     letter-spacing: -0.02em;
-
-    margin-bottom: 40px;
 }
 
 .blockquote::before {
@@ -12,7 +11,6 @@
     top: 29px;
     left: 50%;
     transform: translateX(-50%);
-
     color: var(--color-about-quote-mark);
     font: var(--font-heading);
     letter-spacing: -0.02em;
@@ -26,7 +24,6 @@
 
 .blockquote-author {
     font: var(--font-caption-medium);
-
     display: flex;
     align-items: center;
     gap: 10px;
@@ -34,7 +31,6 @@
 
 .blockquote-platform {
     font: var(--font-caption-bold);
-
     display: flex;
     align-items: center;
     gap: 8px;

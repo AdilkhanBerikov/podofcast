@@ -6,12 +6,10 @@
 .heading__text {
     padding-top: 40px;
     margin-bottom: 40px;
-
     font: var(--font-heading);
     letter-spacing: -0.04em;
     line-height: 1;
     color: var(--color-main-heading-text);
-
     display: flex;
     flex-direction: column;
 }

@@ -1,11 +1,4 @@
 .about-section {
-    text-align: center;
     padding-top: 140px;
-
-    /*background-image: url("../../../../images/background/scribble.png");*/
-    /*background-position-x: center;*/
-    /*background-position-y: -74px;*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: 150px 150px;*/
-    /*z-index: 1;*/
+    text-align: center;
 }
