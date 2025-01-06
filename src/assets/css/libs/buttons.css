@@ -9,7 +9,7 @@
     border: none;
     border-radius: var(--border-radius);
     cursor: pointer;
-    transition: color 0.3s ease, background 0.3s ease;
+    transition: color var(--transition-duration), background var(--transition-duration);
 }
 
 .button.-alternate {
@@ -35,6 +35,5 @@
 
 .button.-big {
     padding: 21px 48px;
-
     box-shadow: 6px 6px 0 var(--color-button-shadow);
 }

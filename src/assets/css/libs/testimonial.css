@@ -1,35 +1,35 @@
-.blockquote {
-    margin-bottom: 40px;
-    font: var(--font-h2);
-    line-height: 1.4;
-    letter-spacing: -0.02em;
+.testimonial {
+    margin-bottom: 30px;
+    position: relative;
+    font: var(--font-h3);
+    line-height: 1.6;
+    font-weight: 500;
 }
 
-.blockquote::before {
+.testimonial::before {
     content: '“';
     position: absolute;
-    top: 29px;
-    left: 50%;
-    transform: translateX(-50%);
+    top: 24px;
+    transform: translateY(-100%);
     color: var(--color-about-quote-mark);
     font: var(--font-heading);
     letter-spacing: -0.02em;
 }
 
-.blockquote__user-platform {
+.testimonial__user-platform {
+    margin-bottom: 40px;
     display: flex;
-    justify-content: center;
     gap: 10px;
 }
 
-.blockquote-author {
+.testimonial-author {
     font: var(--font-caption-medium);
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.blockquote-platform {
+.testimonial-platform {
     font: var(--font-caption-bold);
     display: flex;
     align-items: center;

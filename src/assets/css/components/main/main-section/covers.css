@@ -10,30 +10,21 @@
 
 .cover {
     --cover-size: 373px;
-    position: relative;
-
     width: var(--cover-size);
     height: var(--cover-size);
     padding: 20px;
-    border-radius: var(--border-radius-large);
-    /*background-color: var(--color-black);*/
-    /*background-repeat: no-repeat;*/
-    /*background-size: var(--cover-size);*/
-
+    position: relative;
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: flex-end;
+    border-radius: var(--border-radius-large);
 }
 
 .cover__background {
     position: absolute;
     top: 0;
     left: 0;
-    /*width: 100%;*/
-    /*height: 100%;*/
-    /*object-fit: cover;*/
-    /*visibility: visible;*/
 }
 
 .cover__socials {
@@ -48,6 +39,5 @@
     font: var(--font-h2);
     line-height: 1.2;
     letter-spacing: -0.04em;
-
     align-self: flex-start;
 }

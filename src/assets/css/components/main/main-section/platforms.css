@@ -1,6 +1,5 @@
 .main-section__platforms {
-    padding: 43px 0;
-
+    padding: 42px 0;
     border-top: var(--border-landing-platforms);
     border-bottom: var(--border-landing-platforms);
 }
@@ -10,8 +9,6 @@
     grid-template-columns: repeat(4, 1fr);
     gap: 20px;
     align-items: center;
-
-    line-height: 0;
 }
 
 .main-platforms__title {

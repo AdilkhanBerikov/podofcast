@@ -1,6 +1,5 @@
 .footer__platforms-apps {
     font: var(--font-body-medium);
-
     display: flex;
     flex-direction: column;
     gap: 53px;

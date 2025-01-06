@@ -1,0 +1,42 @@
+.scrolls {
+    display: flex;
+    gap: 20px;
+}
+
+.scroll {
+    color: black;
+    cursor: pointer;
+    transition: color var(--transition-duration);
+}
+
+/*.scroll path {*/
+/*    transition: stroke var(--transition-duration);*/
+/*}*/
+
+.scroll:hover {
+    color: var(--color-scroll-hover);
+}
+
+/*.scroll-left {*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.scroll-left path {*/
+/*    transition: stroke 0.3s ease;*/
+/*}*/
+
+/*.scroll-left:hover path {*/
+/*    stroke: var(--color-scroll-hover);*/
+/*}*/
+
+/*.scroll-right {*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*.scroll-right path {*/
+/*    transition: stroke 0.3s ease;*/
+/*}*/
+
+/*.scroll-right:hover path {*/
+/*    stroke: var(--color-scroll-hover);*/
+/*}*/

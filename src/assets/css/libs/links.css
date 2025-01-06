@@ -1,5 +1,5 @@
 .link {
-    transition: color 0.3s ease;
+    transition: color var(--transition-duration);
 }
 
 .link:hover {

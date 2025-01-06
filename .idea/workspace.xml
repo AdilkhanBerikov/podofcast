@@ -5,13 +5,33 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ecbd55c-47a0-4bc3-a503-b2b59dda66da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/css/libs/blockquote.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/css/libs/section.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/variables/transition.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/common/grids.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/common/grids.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/footer/footnote.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/footer/footnote.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/footer/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/footer/general.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/footer/platforms.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/footer/platforms.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/header/dropdown.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/header/dropdown.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/about-section/figure.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/about-section/figure.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/about-section/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/about-section/general.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/about-section/heading.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/about-section/heading.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/about-section/quote.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/about-section/quote.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/general.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/main-section/covers.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/main-section/covers.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/main-section/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/main-section/general.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/libs/libs.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/libs/libs.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/main-section/heading.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/main-section/heading.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/main-section/platforms.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/main-section/platforms.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/testimonials-section/general.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/testimonials-section/general.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/testimonials-section/heading.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/testimonials-section/heading.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/testimonials-section/scroll-items.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/testimonials-section/scroll-items.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/libs/blockquote.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/libs/blockquote.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/libs/buttons.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/libs/buttons.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/libs/links.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/libs/links.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/libs/scroll.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/libs/scroll.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/libs/testimonial.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/libs/testimonial.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/variables/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/variables/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/variables/variables.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/variables/variables.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -69,7 +89,12 @@
       <workItem from="1735892918268" duration="5755000" />
       <workItem from="1736004149109" duration="1197000" />
       <workItem from="1736013765036" duration="3439000" />
-      <workItem from="1736068021845" duration="1015000" />
+      <workItem from="1736068021845" duration="1398000" />
+      <workItem from="1736076274336" duration="2296000" />
+      <workItem from="1736083255658" duration="7971000" />
+      <workItem from="1736102682025" duration="6107000" />
+      <workItem from="1736152543818" duration="3575000" />
+      <workItem from="1736159498016" duration="3979000" />
     </task>
     <servers />
   </component>

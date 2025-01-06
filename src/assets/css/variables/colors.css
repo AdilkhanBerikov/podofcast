@@ -30,6 +30,8 @@
     --color-header-background: var(--color-champagne);
     --color-header-navigation-text: var(--color-black);
 
+    --color-header-dropdown-trigger-background-color: var(--color-black);
+    --color-header-dropdown-trigger-background-color-hover: var(--color-vermillion);
     --color-header-dropdown-background: var(--color-white);
     --color-header-dropdown-border: var(--color-chinese-silver);
     --color-header-dropdown-shadow: var(--color-black-transparent-dark);
@@ -55,5 +57,15 @@
     --color-cover-heading-text: var(--color-pewter-blue);
 
     --color-about-quote-box: var(--color-champagne);
-    --color-about-quote-mark: var(--color-vermillion)
+    --color-about-quote-mark: var(--color-vermillion);
+
+    /*testimonials-section*/
+    --color-testimonials-background: var(--color-alice-blue);
+    --color-testimonials-text: var(--color-davys-grey);
+
+    /*testimonial*/
+    --color-testimonial: var(--color-white);
+
+    /*scroll*/
+    --color-scroll-hover: var(--color-vermillion);
 }

@@ -3,10 +3,10 @@
 }
 
 .grid.-header {
-    grid-template-columns: min-content max-content 1fr min-content;
-    position: relative;
     margin-top: 24px;
     margin-bottom: 24px;
+    grid-template-columns: min-content max-content 1fr min-content;
+    position: relative;
 }
 
 .grid.-footer {

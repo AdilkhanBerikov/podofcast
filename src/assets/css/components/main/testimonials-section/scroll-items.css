@@ -1,0 +1,13 @@
+.testimonials-section__scroll-list {
+    margin-bottom: 60px;
+    overflow-x: hidden;
+    display: grid;
+    grid-template-columns: repeat(3, 570px);
+    gap: 20px;
+}
+
+.testimonials-section__scroll-item {
+    padding: 132px 40px 0;
+    background-color: var(--color-testimonial);
+    border-radius: var(--border-radius);
+}
