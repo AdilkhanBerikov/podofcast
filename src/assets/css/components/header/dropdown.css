@@ -24,7 +24,7 @@
     /*display: none;*/
     opacity: 0; /* Начальное состояние: прозрачное */
     transform: translateY(-10px); /* Сдвиг вверх */
-    visibility: hidden; /* Скрытие элемента визуально и для фокуса */
+    /*visibility: hidden; !* Скрытие элемента визуально и для фокуса *!*/
     position: fixed;
     top: 75px;
     z-index: 10;
