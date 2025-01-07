@@ -1,8 +1,23 @@
 .testimonials-section__heading {
     margin-bottom: 20px;
+    position: relative;
     font: var(--font-h1);
     letter-spacing: -0.02em;
     text-align: center;
+}
+
+.testimonials-section__heading::before {
+    content: '';
+    top: -69px;
+    left: 140px;
+    position: absolute;
+    background-image: url("../../../../../assets/images/background/bckgTestimonialsSection.png");
+    background-repeat: no-repeat;
+    background-size: 105px 105px;
+    width: 105px;
+    height: 105px;
+    pointer-events: none;
+    z-index: 10;
 }
 
 .testimonials-section__subheading {
