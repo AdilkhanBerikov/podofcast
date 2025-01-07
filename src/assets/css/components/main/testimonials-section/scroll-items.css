@@ -1,8 +1,7 @@
 .testimonials-section__scroll-list {
     margin-bottom: 60px;
-    overflow-x: hidden;
     display: grid;
-    grid-template-columns: repeat(3, 570px);
+    grid-template-columns: repeat(4, 570px);
     gap: 20px;
 }
 
