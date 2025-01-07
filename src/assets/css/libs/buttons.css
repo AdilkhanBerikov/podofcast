@@ -37,3 +37,8 @@
     padding: 21px 48px;
     box-shadow: 6px 6px 0 var(--color-button-shadow);
 }
+
+.button.-medium {
+    padding: 20px 36px;
+    box-shadow: 6px 6px 0 var(--color-button-shadow);
+}

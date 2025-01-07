@@ -1,0 +1,29 @@
+.features-section__heading {
+    margin-bottom: 20px;
+    position: relative;
+    font: var(--font-h1);
+    letter-spacing: -0.02em;
+}
+
+.features-section__heading::after {
+    content: '';
+    top: -146px;
+    right: 146px;
+    position: absolute;
+    background-image: url("../../../../../assets/images/background/bckgFeaturesSection.png");
+    background-repeat: no-repeat;
+    background-size: 240px 240px;
+    width: 240px;
+    height: 240px;
+    pointer-events: none;
+    z-index: 10;
+    transform: rotate(14.3deg);
+}
+
+.features-section__subheading {
+    margin-bottom: 100px;
+    color: var(--color-testimonials-text);
+    font: var(--font-h3);
+    line-height: 1.6;
+    font-weight: 500;
+}
