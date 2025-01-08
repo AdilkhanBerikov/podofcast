@@ -21,3 +21,7 @@
 .section:first-of-type::before {
     content: none;
 }
+
+.section.-alternate::before {
+    background-image: url("../../images/background/scribbleBlack.png");
+}
