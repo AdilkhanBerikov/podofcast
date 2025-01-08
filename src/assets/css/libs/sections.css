@@ -22,6 +22,6 @@
     content: none;
 }
 
-.section.black-scribble::before {
+.section.-alternate::before {
     background-image: url("../../images/background/scribbleBlack.png");
 }

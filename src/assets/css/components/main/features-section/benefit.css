@@ -1,4 +1,4 @@
-.features-section__figures {
+.features-section__benefits {
     margin-bottom: 100px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
@@ -7,15 +7,15 @@
     width: 100%;
 }
 
-.features-section__figure {
+.features-section__benefit {
     font: var(--font-body-medium);
 }
 
-.features-section__figure-img {
+.benefit__image {
     margin-bottom: 30px;
 }
 
-.figure-heading {
+.benefit__heading {
     margin-bottom: 10px;
     font: var(--font-h3);
     letter-spacing: -0.02em;
