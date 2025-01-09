@@ -14,11 +14,11 @@
     height: var(--cover-size);
     padding: 20px;
     position: relative;
+    border-radius: var(--border-radius-large);
     display: flex;
     justify-content: space-between;
     flex-direction: column;
     align-items: flex-end;
-    border-radius: var(--border-radius-large);
 }
 
 .cover__background {
