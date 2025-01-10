@@ -5,13 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ecbd55c-47a0-4bc3-a503-b2b59dda66da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/css/components/main/episodes-section/episodes-section.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/components/main/episodes-section/button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/components/main/episodes-section/episodes.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/components/main/episodes-section/general.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/components/main/episodes-section/heading.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/main-section/covers.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/main-section/covers.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/variables/borders.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/variables/borders.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/variables/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/variables/colors.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/episodes-section/episodes-section.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/episodes-section/episodes-section.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
