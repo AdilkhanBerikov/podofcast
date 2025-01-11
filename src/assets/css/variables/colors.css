@@ -84,4 +84,5 @@
     --color-episodes-section-tag-border: var(--color-davys-grey);
 
     --color-episodes-section-tag-hosts-text: var(--color-davys-grey);
+    --color-episodes-section-hosts-images-border: var(--color-white);
 }

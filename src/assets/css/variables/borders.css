@@ -5,5 +5,7 @@
 
     --border-radius-large: 12px;
 
+    --border-radium-image: 50%;
+
     --border-landing-platforms: 2px solid var(--color-davys-grey);
 }
