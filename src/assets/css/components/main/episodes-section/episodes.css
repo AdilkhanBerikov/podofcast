@@ -26,11 +26,7 @@
 }
 
 .episodes__episodes-item {
-    --episodes-item-width: 570px;
-    --episodes-item-height: 249px;
-    padding: 16px;
-    width: var(--episodes-item-width);
-    height: var(--episodes-item-height);
+    padding: 14px;
     position: relative;
     background-color: var(--color-episodes-section-item-background);
     border: 2px solid var(--color-episodes-section-item-border);
@@ -107,7 +103,7 @@
 }
 
 .episodes-hosts__tag {
-    padding: 6px 12px;
+    padding: 5px 12px;
     font: var(--font-small-medium);
     border: 1px solid var(--color-episodes-section-tag-border);
     border-radius: var(--border-radius-small);

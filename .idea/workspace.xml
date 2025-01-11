@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ecbd55c-47a0-4bc3-a503-b2b59dda66da" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/gradient.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/icons/icons.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/episodes-section/episodes.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/episodes-section/episodes.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/variables/borders.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/variables/borders.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/css/variables/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/variables/colors.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/assets/images/avatar/hostsEpisodes6.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -82,7 +77,10 @@
       <workItem from="1736500239890" duration="81000" />
       <workItem from="1736504465494" duration="6311000" />
       <workItem from="1736531606307" duration="6340000" />
-      <workItem from="1736568779241" duration="779000" />
+      <workItem from="1736568779241" duration="1723000" />
+      <workItem from="1736582398080" duration="905000" />
+      <workItem from="1736597472782" duration="5420000" />
+      <workItem from="1736621214516" duration="447000" />
     </task>
     <servers />
   </component>
