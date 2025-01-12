@@ -78,8 +78,9 @@
     --color-episodes-item-shadow: var(--color-pewter-blue);
 
     --color-episodes-title-text: var(--color-davys-grey);
-    --color-episodes-title-heading-text: var(--color-vermillion);
-    --color-episodes-title-heading-text-alternate: var(--color-black);
+    --color-episodes-number: var(--color-vermillion);
+    --color-episodes-title-heading-text: var(--color-black);
+    --color-episodes-title-heading-text-alternate: var(--color-vermillion);
 
     --color-episodes-section-tag-border: var(--color-davys-grey);
 
