@@ -78,12 +78,10 @@
     --color-episodes-item-shadow: var(--color-pewter-blue);
 
     --color-episodes-title-text: var(--color-davys-grey);
-    --color-episodes-number: var(--color-vermillion);
-    --color-episodes-title-heading-text: var(--color-black);
-    --color-episodes-title-heading-text-alternate: var(--color-vermillion);
+    --color-episodes-title-number: var(--color-vermillion);
 
     --color-episodes-section-tag-border: var(--color-davys-grey);
 
-    --color-episodes-section-tag-hosts-text: var(--color-davys-grey);
+    --color-episodes-section-footer-text: var(--color-davys-grey);
     --color-episodes-section-hosts-images-border: var(--color-white);
 }

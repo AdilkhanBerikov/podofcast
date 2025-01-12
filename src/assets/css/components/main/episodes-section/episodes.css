@@ -26,9 +26,9 @@
 }
 
 .episodes__item {
+    --color-episode-header: black;
     padding: 14px;
     position: relative;
-    color: var(--color-episodes-title-heading-text);
     background-color: var(--color-episodes-section-item-background);
     border: 2px solid var(--color-episodes-section-item-border);
     border-radius: var(--border-radius-large);
@@ -37,11 +37,11 @@
 }
 
 .episodes__item.-alternate {
+    --color-episode-header: #CD4631;
     box-shadow: 10px 10px 0 var(--color-episodes-item-shadow);
-    color: var(--color-episodes-title-heading-text-alternate);
 }
 
-.episode {
+.episode__body {
     display: flex;
     gap: 20px;
     align-items: center;
@@ -83,12 +83,13 @@
 }
 
 .title-heading__episodes-number {
-    color: var(--color-episodes-number);
+    color: var(--color-episodes-title-number);
 }
 
 .title-heading__heading {
     font: var(--font-h3);
     letter-spacing: -0.02em;
+    color: var(--color-episode-header);
 }
 
 .episode__title-text {
@@ -98,7 +99,7 @@
 .episode__footer {
     display: flex;
     justify-content: space-between;
-    color: var(--color-episodes-section-tag-hosts-text);
+    color: var(--color-episodes-section-footer-text);
 }
 
 .episode__tags {
