@@ -18,14 +18,14 @@
     background-size: 240px 240px;
 }
 
-.episodes__episodes-list {
+.episodes__list {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr 1fr;
     gap: 20px 20px;
 }
 
-.episodes__episodes-item {
+.episodes__item {
     padding: 14px;
     position: relative;
     background-color: var(--color-episodes-section-item-background);
@@ -35,17 +35,17 @@
     gap: 20px;
 }
 
-.episodes__episodes-item.shadow {
+.episodes__item.shadow {
     box-shadow: 10px 10px 0 var(--color-episodes-item-shadow);
 }
 
-.episodes-item__episodes-title {
+.episodes-item__title {
     display: flex;
     gap: 20px;
     align-items: center;
 }
 
-.episodes-title__episodes-cover {
+.episodes-title__cover {
     --episodes-cover-size: 166px;
     padding: 10px;
     width: var(--episodes-cover-size);
@@ -91,7 +91,7 @@
     color: var(--color-episodes-title-heading-text-alternate);
 }
 
-.episodes-item__episodes-hosts {
+.episodes-item__hosts {
     display: flex;
     justify-content: space-between;
     color: var(--color-episodes-section-tag-hosts-text);
@@ -129,7 +129,7 @@
 
 .hosts-images__image {
     margin-left: -8px;
-    border-radius: var(--border-radium-image);
+    border-radius: 50%;
     border: 2px solid var(--color-episodes-section-hosts-images-border);
     transition: transform var(--transition-duration);
 }
