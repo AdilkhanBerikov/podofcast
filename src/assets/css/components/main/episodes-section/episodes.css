@@ -26,7 +26,7 @@
 }
 
 .episodes__item {
-    --color-episode-header: black;
+    --color-episode-header: var(--color-black);
     padding: 14px;
     position: relative;
     background-color: var(--color-episodes-section-item-background);
@@ -37,7 +37,7 @@
 }
 
 .episodes__item.-alternate {
-    --color-episode-header: #CD4631;
+    --color-episode-header: var(--color-vermillion);
     box-shadow: 10px 10px 0 var(--color-episodes-item-shadow);
 }
 
