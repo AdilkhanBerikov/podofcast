@@ -1,0 +1,124 @@
+.pricing-section__offers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.pricing-section__offer {
+    position: relative;
+    z-index: 1;
+    display: grid;
+    grid-template-rows: min-content 1fr;
+    gap: 20px;
+}
+
+.pricing-section__offer:last-of-type::before {
+    --pricing-offer-before-size: 200px;
+    content: '';
+    position: absolute;
+    z-index: 0;
+    top: -92px;
+    right: -87px;
+    width: var(--pricing-offer-before-size);
+    height: var(--pricing-offer-before-size);
+    background-image: url("../../../../images/background/bckgPricingSectionStar4.png");
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    pointer-events: none;
+}
+
+.offer__price {
+    padding: 57px 38px 27px;
+    border: 2px solid var(--color-price-section-offer-price-border);
+    border-radius: var(--border-radius);
+    display: grid;
+    gap: 90px;
+}
+
+.offer__price.-popular {
+    position: relative;
+    border: 2px solid var(--color-price-section-offer-price-border-popular);
+    background-color: var(--color-price-section-offer-price-background-popular);
+}
+
+.offer__price.-popular::before {
+    content: 'most popular';
+    top: 73px;
+    left: 213px;
+    padding: 3px 6px;
+    position: absolute;
+    background-color: var(--color-price-section-heading-popular-before-background);
+    border-radius: var(--border-radius-small);
+    font: var(--font-small-bold);
+    color: var(--color-price-section-heading-popular-before-text);
+    text-transform: uppercase;
+}
+
+.price__heading {
+    display: grid;
+    gap: 20px;
+}
+
+.price-heading__title {
+    font: var(--font-h2);
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+}
+
+.price-heading__text {
+    font: var(--font-caption-medium);
+    color: var(--color-price-section-heading-text);
+}
+
+.price__subscription {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subscription__value {
+    font: var(--font-h3);
+    letter-spacing: -0.02em;
+    color: var(--color-price-section-subscription-value-text);
+    display: grid;
+}
+
+.subscription__value-accent {
+    font: var(--font-caption-bold);
+    color: var(--color-price-section-subscription-value-accent-text);
+}
+
+.offer__benefits {
+    padding: 39px 38px 59px;
+    border: 2px solid var(--cover-item-benefits-border-color, var(--color-price-section-offer-benefits-border));
+    /*border: 2px solid var(--color-price-section-offer-benefits-border);*/
+    border-radius: var(--border-radius);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.offer__benefits.-popular {
+    --cover-item-benefits-border-color: var(--color-price-section-offer-benefits-border-popular);
+    /*border: 2px solid var(--color-price-section-offer-benefits-border-popular);*/
+    background-color: var(--color-price-section-offer-benefits-background-popular);
+}
+
+.benefits__text {
+    font: var(--font-caption-bold);
+    color: var(--color-price-section-benefit-text);
+}
+
+.benefits__list {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.benefits__item {
+    font: var(--font-body-medium);
+}
+
+.benefits__item.-important {
+    font: var(--font-body-bold);
+}
