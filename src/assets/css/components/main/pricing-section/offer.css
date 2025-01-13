@@ -6,21 +6,36 @@
 
 .pricing-section__offer {
     position: relative;
-    z-index: 1;
+    z-index: 0;
     display: grid;
     grid-template-rows: min-content 1fr;
     gap: 20px;
 }
 
-.pricing-section__offer:last-of-type::before {
-    --pricing-offer-before-size: 200px;
+.pricing-section__offer:first-of-type::before {
+    --pricing-offer-first-before-size: 120px;
     content: '';
     position: absolute;
-    z-index: 0;
+    z-index: -10;
+    bottom: -40px;
+    left: -70px;
+    width: var(--pricing-offer-first-before-size);
+    height: var(--pricing-offer-first-before-size);
+    background-image: url("../../../../images/background/bckgPricingSectionVector4.png");
+    background-repeat: no-repeat;
+    background-size: 120px 120px;
+    pointer-events: none;
+}
+
+.pricing-section__offer:last-of-type::before {
+    --pricing-offer-last-before-size: 200px;
+    content: '';
+    position: absolute;
+    z-index: -10;
     top: -92px;
-    right: -87px;
-    width: var(--pricing-offer-before-size);
-    height: var(--pricing-offer-before-size);
+    right: -102px;
+    width: var(--pricing-offer-last-before-size);
+    height: var(--pricing-offer-last-before-size);
     background-image: url("../../../../images/background/bckgPricingSectionStar4.png");
     background-repeat: no-repeat;
     background-size: 200px 200px;
@@ -31,6 +46,7 @@
     padding: 57px 38px 27px;
     border: 2px solid var(--color-price-section-offer-price-border);
     border-radius: var(--border-radius);
+    background-color: var(--color-price-section-offer-price-background);
     display: grid;
     gap: 90px;
 }
@@ -93,6 +109,7 @@
     border: 2px solid var(--cover-item-benefits-border-color, var(--color-price-section-offer-benefits-border));
     /*border: 2px solid var(--color-price-section-offer-benefits-border);*/
     border-radius: var(--border-radius);
+    background-color: var(--color-price-section-offer-benefits-background);
     display: flex;
     flex-direction: column;
     gap: 20px;

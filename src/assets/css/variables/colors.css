@@ -88,9 +88,11 @@
     /*price-section*/
     --color-price-section-offer-price-border: var(--color-black);
     --color-price-section-offer-price-border-popular: var(--color-vermillion);
+    --color-price-section-offer-price-background: var(--color-white);
     --color-price-section-offer-price-background-popular: var(--color-champagne);
     --color-price-section-offer-benefits-border: var(--color-black);
     --color-price-section-offer-benefits-border-popular: var(--color-vermillion);
+    --color-price-section-offer-benefits-background: var(--color-white);
     --color-price-section-offer-benefits-background-popular: var(--color-champagne);
 
     --color-price-section-heading-popular-before-background: var(--color-vermillion);
