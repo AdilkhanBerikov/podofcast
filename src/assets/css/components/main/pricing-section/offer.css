@@ -19,7 +19,7 @@
     position: relative;
 }
 
-.pricing-section__offer.-popular::after {
+.pricing-section__offer.-popular .price-heading__title::after {
     content: 'most popular';
     top: 73px;
     left: 213px;
