@@ -1,0 +1,139 @@
+.pricing-section__offers {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.pricing-section__offer {
+    --color-price-section-offer-border: var(--color-black);
+    --color-price-section-offer-background: var(--color-white);
+    position: relative;
+    display: grid;
+    grid-template-rows: min-content 1fr;
+    gap: 20px;
+}
+
+.pricing-section__offer.-popular {
+    --color-price-section-offer-border: var(--color-vermillion);
+    --color-price-section-offer-background: var(--color-champagne);
+    position: relative;
+}
+
+.pricing-section__offer.-popular .price-heading__title::after {
+    content: 'most popular';
+    top: 73px;
+    left: 213px;
+    padding: 3px 6px;
+    position: absolute;
+    background-color: var(--color-price-section-heading-popular-before-background);
+    border-radius: var(--border-radius-small);
+    font: var(--font-small-bold);
+    color: var(--color-price-section-heading-popular-before-text);
+    text-transform: uppercase;
+}
+
+.pricing-section__offer:first-of-type::before {
+    --pricing-offer-first-before-size: 120px;
+    content: '';
+    position: absolute;
+    z-index: -10;
+    bottom: -40px;
+    left: -70px;
+    width: var(--pricing-offer-first-before-size);
+    height: var(--pricing-offer-first-before-size);
+    background-image: url("../../../../images/background/bckgPricingSectionVector4.png");
+    background-repeat: no-repeat;
+    background-size: 120px 120px;
+    pointer-events: none;
+}
+
+.pricing-section__offer:last-of-type::before {
+    --pricing-offer-last-before-size: 200px;
+    content: '';
+    position: absolute;
+    z-index: -10;
+    top: -92px;
+    right: -102px;
+    width: var(--pricing-offer-last-before-size);
+    height: var(--pricing-offer-last-before-size);
+    background-image: url("../../../../images/background/bckgPricingSectionStar4.png");
+    background-repeat: no-repeat;
+    background-size: 200px 200px;
+    pointer-events: none;
+}
+
+.offer__price {
+    padding: 57px 38px 27px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--color-price-section-offer-border);
+    border-radius: var(--border-radius);
+    background-color: var(--color-price-section-offer-background);
+    display: grid;
+    gap: 90px;
+}
+
+.price__heading {
+    display: grid;
+    gap: 20px;
+}
+
+.price-heading__title {
+    font: var(--font-h2);
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+}
+
+.price-heading__text {
+    font: var(--font-caption-medium);
+    color: var(--color-price-section-heading-text);
+}
+
+.price__subscription {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.subscription__value {
+    font: var(--font-h3);
+    letter-spacing: -0.02em;
+    color: var(--color-price-section-subscription-value-text);
+    display: grid;
+}
+
+.subscription__value-accent {
+    font: var(--font-caption-bold);
+    color: var(--color-price-section-subscription-value-accent-text);
+}
+
+.offer__benefits {
+    padding: 39px 38px 59px;
+    border-width: 2px;
+    border-style: solid;
+    border-color: var(--color-price-section-offer-border);
+    border-radius: var(--border-radius);
+    background-color: var(--color-price-section-offer-background);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.benefits__text {
+    font: var(--font-caption-bold);
+    color: var(--color-price-section-benefit-text);
+}
+
+.benefits__list {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    gap: 10px;
+}
+
+.benefits__item {
+    font: var(--font-body-medium);
+}
+
+.benefits__item.-important {
+    font: var(--font-body-bold);
+}

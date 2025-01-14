@@ -2,7 +2,7 @@
     --color-white: #ffffff;
     --color-antiflash-white: #f0f0f0;
     --color-black: #000000;
-    --color-black-transparent: rgba(0, 0, 0, 0.1);
+    --color-black-transparent: rgba(0, 0, 0, 0.25);
     --color-black-transparent-dark: rgba(0, 0, 0, 0.4);
     --color-davys-grey: #4D4D4D;
     --color-chinese-silver: #ccc;
@@ -84,4 +84,22 @@
 
     --color-episodes-section-footer-text: var(--color-davys-grey);
     --color-episodes-section-hosts-images-border: var(--color-white);
+
+    /*price-section*/
+    --color-price-section-offer-price-border: var(--color-black);
+    --color-price-section-offer-price-border-popular: var(--color-vermillion);
+    --color-price-section-offer-price-background: var(--color-white);
+    --color-price-section-offer-price-background-popular: var(--color-champagne);
+    --color-price-section-offer-benefits-border: var(--color-black);
+    --color-price-section-offer-benefits-border-popular: var(--color-vermillion);
+    --color-price-section-offer-benefits-background: var(--color-white);
+    --color-price-section-offer-benefits-background-popular: var(--color-champagne);
+
+    --color-price-section-heading-popular-before-background: var(--color-vermillion);
+    --color-price-section-heading-popular-before-text: var(--color-white);
+
+    --color-price-section-heading-text: var(--color-davys-grey);
+    --color-price-section-subscription-value-text: var(--color-vermillion);
+    --color-price-section-subscription-value-accent-text: var(--color-davys-grey);
+    --color-price-section-benefit-text: var(--color-davys-grey);
 }
