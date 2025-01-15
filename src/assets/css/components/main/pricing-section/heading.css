@@ -24,7 +24,7 @@
 
 .pricing-section__subheading {
     margin-bottom: 100px;
-    color: var(--color-episodes-section-text);
+    color: var(--color-price-section-subheading);
     font: var(--font-h3);
     line-height: 1.6;
     font-weight: 500;
