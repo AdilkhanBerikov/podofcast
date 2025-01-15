@@ -5,7 +5,20 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2ecbd55c-47a0-4bc3-a503-b2b59dda66da" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/assets/css/components/main/blog-section/blog-section.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/components/main/blog-section/button.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/components/main/blog-section/cards.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/components/main/blog-section/general.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/css/components/main/blog-section/heading.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/episodes-section/heading.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/episodes-section/heading.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/features-section/heading.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/features-section/heading.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/pricing-section/heading.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/pricing-section/heading.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/variables/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/variables/colors.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/css/variables/transition.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/variables/transition.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/assets/images/background/bckgFeaturesSection.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/images/background/bckgScribbleFeaturesSection.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,19 +37,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;develop&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "JavaScript Debug.index.html.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "develop",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/podofcast/src/pages/index.html" useBuiltInWebServerPort="true">
       <method v="2" />

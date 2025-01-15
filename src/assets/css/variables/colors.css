@@ -71,7 +71,7 @@
 
     /*episodes-section*/
     --color-episodes-section-background: var(--color-champagne);
-    --color-episodes-section-text: var(--color-davys-grey);
+    --color-episodes-section-subheading: var(--color-davys-grey);
 
     --color-episodes-section-item-background: var(--color-white);
     --color-episodes-section-item-border: var(--color-black);
@@ -86,6 +86,8 @@
     --color-episodes-section-hosts-images-border: var(--color-white);
 
     /*price-section*/
+    --color-price-section-subheading: var(--color-davys-grey);
+
     --color-price-section-offer-price-border: var(--color-black);
     --color-price-section-offer-price-border-popular: var(--color-vermillion);
     --color-price-section-offer-price-background: var(--color-white);
@@ -102,4 +104,20 @@
     --color-price-section-subscription-value-text: var(--color-vermillion);
     --color-price-section-subscription-value-accent-text: var(--color-davys-grey);
     --color-price-section-benefit-text: var(--color-davys-grey);
+
+    /*blog-section*/
+    --color-blog-section-subheading: var(--color-davys-grey);
+
+    --color-blog-section-card-background: var(--color-white);
+    --color-blog-section-card-border: var(--color-black);
+    --color-blog-section-card-shadow: var(--color-black);
+
+    --color-blog-section-title-name: var(--color-davys-grey);
+    --color-blog-section-title-heading: var(--color-black);
+    --color-blog-section-title-heading-hover: var(--color-vermillion);
+    --color-blog-section-title-text: var(--color-davys-grey);
+
+    --color-blog-section-footnote-text: var(--color-davys-grey);
+    --color-blog-section-footnote-border: var(--color-davys-grey);
+    --color-blog-section-footnote-tag-border: var(--color-davys-grey);
 }
