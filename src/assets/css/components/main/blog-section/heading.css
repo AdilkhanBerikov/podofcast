@@ -1,13 +1,13 @@
-.episodes-section__heading {
+.blog-section__heading {
     margin-bottom: 20px;
     font: var(--font-h1);
     letter-spacing: -0.02em;
     text-align: center;
 }
 
-.episodes-section__subheading {
+.blog-section__subheading {
     margin-bottom: 100px;
-    color: var(--color-episodes-section-subheading);
+    color: var(--color-blog-section-subheading);
     font: var(--font-h3);
     line-height: 1.6;
     font-weight: 500;
