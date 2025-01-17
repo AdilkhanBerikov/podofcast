@@ -7,6 +7,7 @@
     <list default="true" id="2ecbd55c-47a0-4bc3-a503-b2b59dda66da" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/blog-section/cards.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/blog-section/cards.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/main-section/covers.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/main-section/covers.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/main-section/heading.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/main-section/heading.css" afterDir="false" />
@@ -19,6 +20,8 @@
       <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
 =======
 >>>>>>> a952fd7 (develop fix episodes section episodes hover colors)
+=======
+>>>>>>> 379b2d1 (develop fix episodes section episodes hover colors 2)
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -107,12 +110,16 @@
       <workItem from="1736765848029" duration="5712000" />
       <workItem from="1736839741173" duration="6510000" />
 <<<<<<< HEAD
+<<<<<<< HEAD
       <workItem from="1737012199406" duration="683000" />
       <workItem from="1737025149994" duration="3187000" />
       <workItem from="1737038196858" duration="969000" />
 =======
       <workItem from="1737107573607" duration="1034000" />
 >>>>>>> a952fd7 (develop fix episodes section episodes hover colors)
+=======
+      <workItem from="1737107573607" duration="1945000" />
+>>>>>>> 379b2d1 (develop fix episodes section episodes hover colors 2)
     </task>
     <servers />
   </component>

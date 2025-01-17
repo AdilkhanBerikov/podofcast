@@ -79,13 +79,10 @@
 }
 
 .episode-title__heading {
+    font: var(--font-body-bold);
+    color: var(--color-episodes-title-number);
     display: grid;
     gap: 4px;
-    font: var(--font-body-bold);
-}
-
-.title-heading__episodes-number {
-    color: var(--color-episodes-title-number);
 }
 
 .title-heading__heading {
