@@ -4,6 +4,7 @@
     justify-content: center;
     text-decoration: none;
     transition: transform var(--transition-duration) ease;
+
 }
 
 .socials__link:hover {
@@ -11,10 +12,13 @@
     /*!*opacity: 0.8; !* прозрачность *!*! opacity 0.3s ease*/
 }
 
-/*.socials__icon {*/
-/*    fill: var(--color-black); !* Задаёт цвет иконки, можно использовать переменную *!*/
-/*    transition: fill 0.3s ease;*/
-/*}*/
+.socials__icon {
+    color: var(--color-icon-mini-logo); /* Задаёт цвет иконки, можно использовать переменную */
+}
+
+.socials__icon.-alternate {
+    color: var(--color-icon-mini-logo-alternate);
+}
 
 /*.socials__link:hover .socials__icon {*/
 /*    fill: var(--color-black); !* Цвет при наведении *!*/

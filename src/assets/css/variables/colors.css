@@ -26,6 +26,17 @@
     --color-button-alternate-hover-text: var(--color-vermillion);
     --color-button-alternate-hover-border: var(--color-vermillion);
 
+    /*testimonial*/
+    --color-testimonial: var(--color-white);
+
+    /*scroll*/
+    --color-scroll-hover: var(--color-vermillion);
+
+    /*icons*/
+
+    --color-icon-mini-logo: var(--color-white);
+    --color-icon-mini-logo-alternate: var(--color-black);
+
     /*header*/
     --color-header-background: var(--color-champagne);
     --color-header-navigation-text: var(--color-black);
@@ -62,12 +73,6 @@
     /*testimonials-section*/
     --color-testimonials-background: var(--color-alice-blue);
     --color-testimonials-text: var(--color-davys-grey);
-
-    /*testimonial*/
-    --color-testimonial: var(--color-white);
-
-    /*scroll*/
-    --color-scroll-hover: var(--color-vermillion);
 
     /*episodes-section*/
     --color-episodes-section-background: var(--color-champagne);
@@ -122,4 +127,13 @@
     --color-blog-section-footnote-text: var(--color-davys-grey);
     --color-blog-section-footnote-border: var(--color-davys-grey);
     --color-blog-section-footnote-tag-border: var(--color-davys-grey);
+
+    /*app-section*/
+    --color-app-section-background: var(--color-alice-blue);
+
+    --color-app-section-heading-before-text: var(--color-vermillion);
+    --color-app-section-heading-before-border: var(--color-vermillion);
+    --color-app-section-subheading: var(--color-davys-grey);
+
+    --color-app-section-platform-text: var(--color-davys-grey);
 }
