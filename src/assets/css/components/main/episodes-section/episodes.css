@@ -80,20 +80,19 @@
 
 .episode-title__heading {
     font: var(--font-body-bold);
-    color: var(--color-episodes-title-number);
     display: grid;
     gap: 4px;
+}
+
+.title-heading__episodes-number {
+    color: var(--color-episodes-title-number);
 }
 
 .title-heading__heading {
     font: var(--font-h3);
     letter-spacing: -0.02em;
-    color: var(--color-episodes-title-heading);
-    transition: color var(--transition-duration-long);
-}
-
-.episodes__item:hover .title-heading__heading {
     color: var(--color-episodes-item);
+    transition: color var(--transition-duration-long);
 }
 
 .episode__title-text {
