@@ -12,10 +12,13 @@
       <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/main-section/heading.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/main-section/heading.css" afterDir="false" />
 =======
       <change beforePath="$PROJECT_DIR$/src/assets/css/components/main/episodes-section/episodes.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/components/main/episodes-section/episodes.css" afterDir="false" />
+<<<<<<< HEAD
       <change beforePath="$PROJECT_DIR$/src/assets/css/variables/colors.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/variables/colors.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/assets/css/variables/transition.css" beforeDir="false" afterPath="$PROJECT_DIR$/src/assets/css/variables/transition.css" afterDir="false" />
 >>>>>>> 6a76889 (develop fix episodes section episodes hover)
       <change beforePath="$PROJECT_DIR$/src/pages/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/pages/index.html" afterDir="false" />
+=======
+>>>>>>> a952fd7 (develop fix episodes section episodes hover colors)
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,19 +37,19 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "JavaScript Debug.index.html.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "develop-fix",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;JavaScript Debug.index.html.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;develop-fix&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RunManager">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/podofcast/src/pages/index.html" useBuiltInWebServerPort="true">
       <method v="2" />
@@ -103,9 +106,13 @@
       <workItem from="1736678603034" duration="11034000" />
       <workItem from="1736765848029" duration="5712000" />
       <workItem from="1736839741173" duration="6510000" />
+<<<<<<< HEAD
       <workItem from="1737012199406" duration="683000" />
       <workItem from="1737025149994" duration="3187000" />
       <workItem from="1737038196858" duration="969000" />
+=======
+      <workItem from="1737107573607" duration="1034000" />
+>>>>>>> a952fd7 (develop fix episodes section episodes hover colors)
     </task>
     <servers />
   </component>
