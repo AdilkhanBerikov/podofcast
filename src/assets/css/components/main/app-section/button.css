@@ -1,0 +1,18 @@
+.app-section__button {
+    margin-bottom: 24px;
+    position: relative;
+}
+
+.app-section__button::before {
+    --app-section-button-before-size: 120px;
+    content: '';
+    width: var(--app-section-button-before-size);
+    height: var(--app-section-button-before-size);
+    top: -70px;
+    right: -70px;
+    pointer-events: none;
+    position: absolute;
+    background-image: url("../../../../../assets/images/background/bckgEpisodesSection.png");
+    background-repeat: no-repeat;
+    background-size: 120px 120px;
+}

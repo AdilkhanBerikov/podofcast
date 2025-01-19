@@ -1,0 +1,13 @@
+.app-section__platforms {
+    font: var(--font-caption-medium);
+    color: var(--color-app-section-platform-text);
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.app-section__platforms-list {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
