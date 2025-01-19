@@ -1,0 +1,53 @@
+.app-section {
+    padding-top: 188px;
+    padding-bottom: 140px;
+    background-color: var(--color-app-section-background);
+    text-align: center;
+    /*background-image: url("../../../../images/background/bckgPhone12AppSection.png");*/
+    /*background-position: 40% 80px;*/
+    /*background-repeat: no-repeat;*/
+    /*background-size: 1720px 1180px;*/
+}
+
+/*.app-section__background {*/
+/*    background-image: url("../../../../images/background/bckgPhone12AppSection.png");*/
+/*    background-position: -200px 80px;*/
+/*    background-repeat: no-repeat;*/
+/*    background-size: 1720px 1180px;*/
+/*}*/
+
+.app-section__wrapper {
+    position: relative;
+}
+
+.app-section__wrapper::before {
+    --app-section-subheading-before-width: 505px;
+    --app-section-subheading-before-height: 1001px;
+    content: '';
+    top: 122px;
+    left: -225px;
+    pointer-events: none;
+    position: absolute;
+    background-image: url("../../../../../assets/images/background/bckgPhone1AppSection.png");
+    background-repeat: no-repeat;
+    background-size: 505px 1001px;
+    width: var(--app-section-subheading-before-width);
+    height: var(--app-section-subheading-before-height);
+    transform: rotate(10deg);
+}
+
+.app-section__wrapper::after {
+    --app-section-subheading-after-width: 800px;
+    --app-section-subheading-after-height: 860px;
+    content: '';
+    top: -95px;
+    right: -500px;
+    pointer-events: none;
+    position: absolute;
+    background-image: url("../../../../../assets/images/background/bckgPhone2AppSection.png");
+    background-repeat: no-repeat;
+    background-size: 800px 860px;
+    width: var(--app-section-subheading-after-width);
+    height: var(--app-section-subheading-after-height);
+    transform: rotate(-15deg);
+}

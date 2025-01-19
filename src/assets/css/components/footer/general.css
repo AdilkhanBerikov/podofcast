@@ -4,6 +4,7 @@
     color: var(--color-footer-general-text);
     background-color: var(--color-footer-general-background);
     border-top: 1px solid var(--color-footer-general-border);
+    z-index: 1;
 }
 
 .footer__info {
