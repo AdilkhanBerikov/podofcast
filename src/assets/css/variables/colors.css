@@ -85,6 +85,7 @@
     --color-episodes-title-heading: var(--color-black);
     --color-episodes-title-heading-hover: var(--color-vermillion);
     --color-episodes-title-text: var(--color-davys-grey);
+    --color-episodes-title-text-border: var(--color-davys-grey);
     --color-episodes-title-number: var(--color-vermillion);
 
     --color-episodes-section-tag-border: var(--color-davys-grey);
