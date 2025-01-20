@@ -1,5 +1,5 @@
 .episodes-section__episodes {
-    margin-bottom: 100px;
+    margin-bottom: 97px;
     position: relative;
 }
 
@@ -27,7 +27,7 @@
 
 .episodes__item {
     --color-episodes-item: var(--color-black);
-    padding: 14px;
+    padding: 15px;
     position: relative;
     background-color: var(--color-episodes-section-item-background);
     border: 2px solid var(--color-episodes-section-item-border);
@@ -44,7 +44,8 @@
 }
 
 .episode__body {
-    display: flex;
+    display: grid;
+    grid-template-columns: min-content 1fr;
     gap: 20px;
     align-items: center;
 }
@@ -96,6 +97,8 @@
 }
 
 .episode__title-text {
+    padding-top: 10px;
+    border-top: 0.5px solid var(--color-episodes-title-text-border);
     color: var(--color-episodes-title-text);
 }
 

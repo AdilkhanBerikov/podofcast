@@ -39,6 +39,6 @@
     color: var(--color-cover-heading-text);
     font: var(--font-h2);
     line-height: 1.2;
-    letter-spacing: -0.04em;
+    letter-spacing: -0.08em;
     align-self: flex-start;
 }

@@ -10,9 +10,9 @@
     --font-small-bold: 700 12px/1.6 var(--font-family-main);
 
     --font-heading: 700 96px var(--font-family-main);
-    --font-h1: 700 59px/1.2 var(--font-family-main);
-    --font-h2: 700 37px var(--font-family-main);
-    --font-h3: 700 23px/1.4 var(--font-family-main);
+    --font-h1: 700 59.3px/1.2 var(--font-family-main);
+    --font-h2: 700 36.65px var(--font-family-main);
+    --font-h3: 700 22.65px/1.4 var(--font-family-main);
 
     /*--font-heading-h2-height: 700 37px/1.4 -0.02em var(--font-family-main);*/
     /*--font-heading-h3-bold: 700 23px/1.4 var(--font-family-main);*/
