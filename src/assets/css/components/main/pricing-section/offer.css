@@ -28,6 +28,7 @@
     background-color: var(--color-price-section-heading-popular-before-background);
     border-radius: var(--border-radius-small);
     font: var(--font-small-bold);
+    letter-spacing: 0;
     color: var(--color-price-section-heading-popular-before-text);
     text-transform: uppercase;
 }

@@ -1,6 +1,6 @@
 .app-section {
     padding-top: 188px;
-    padding-bottom: 140px;
+    padding-bottom: 131px;
     background-color: var(--color-app-section-background);
     text-align: center;
     /*background-image: url("../../../../images/background/bckgPhone12AppSection.png");*/
@@ -24,8 +24,8 @@
     --app-section-subheading-before-width: 505px;
     --app-section-subheading-before-height: 1001px;
     content: '';
-    top: 122px;
-    left: -225px;
+    top: 115px;
+    left: -230px;
     pointer-events: none;
     position: absolute;
     background-image: url("../../../../../assets/images/background/bckgPhone1AppSection.png");
@@ -40,8 +40,8 @@
     --app-section-subheading-after-width: 800px;
     --app-section-subheading-after-height: 860px;
     content: '';
-    top: -95px;
-    right: -500px;
+    top: -98px;
+    right: -501px;
     pointer-events: none;
     position: absolute;
     background-image: url("../../../../../assets/images/background/bckgPhone2AppSection.png");
