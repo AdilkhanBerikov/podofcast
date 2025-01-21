@@ -3,5 +3,6 @@
     background: linear-gradient(
             to bottom,
             var(--color-title-section-background) 49%,
-            var(--color-background-default) 51%);
+            var(--color-background-default) 49%
+    );
 }
