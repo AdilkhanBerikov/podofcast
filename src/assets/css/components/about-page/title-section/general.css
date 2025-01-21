@@ -1,0 +1,9 @@
+.title-section {
+    padding-bottom: 256px;
+    background-color: var(--color-main-landing-background);
+    background-image: url("../../../../images/backgroundAboutPage/bckgAboutPageMainSection.png");
+    background-position: 50% -52px;
+    background-repeat: no-repeat;
+    background-size: 2047px 592px;
+    text-align: center;
+}

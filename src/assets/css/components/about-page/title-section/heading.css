@@ -1,8 +1,4 @@
-.main-section__heading {
-    text-align: center;
-}
-
-.main-section__title {
+.title-section__header {
     padding-top: 40px;
     margin-bottom: 40px;
     font: var(--font-heading);
@@ -13,12 +9,18 @@
     flex-direction: column;
 }
 
-.main-section__title-accent {
+.title-section__header-accent {
     color: var(--color-main-heading-text-accent);
 }
 
-.main-section__description {
+.title-section__description{
     font: var(--font-body-medium);
-    color: var(--color-main-section-heading-text);
-    margin-bottom: 60px;
+    color: var(--color-davys-grey);
+    margin-bottom: 70px;
+}
+
+.title-section__buttons {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
 }
