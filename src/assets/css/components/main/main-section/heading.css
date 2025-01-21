@@ -19,6 +19,6 @@
 
 .main-section__description {
     font: var(--font-body-medium);
-    color: var(--color-main-section-heading-text);
+    color: var(--color-main-section-description);
     margin-bottom: 60px;
 }

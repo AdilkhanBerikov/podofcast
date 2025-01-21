@@ -60,14 +60,14 @@
 
     --color-footer-menu-text: var(--color-black);
 
-    /*main*/
+    /*main-section*/
     --color-main-landing-background: var(--color-champagne);
 
     --color-main-heading-text: var(--color-black);
     --color-main-heading-text-accent: var(--color-vermillion);
+    --color-main-section-description: var(--color-davys-grey);
 
     /*title-section*/
-    --color-main-section-heading-text: var(--color-davys-grey);
     --color-cover-heading-text: var(--color-pewter-blue);
 
     --color-about-quote-box: var(--color-champagne);
@@ -140,4 +140,18 @@
     --color-app-section-subheading: var(--color-davys-grey);
 
     --color-app-section-platform-text: var(--color-davys-grey);
+
+    /*adout-page title-section*/
+    --color-title-section-background: var(--color-champagne);
+
+    --color-title-section-heading: var(--color-black);
+    --color-title-section-heading-accent: var(--color-vermillion);
+    --color-title-section-description: var(--color-davys-grey);
+
+    --color-title-section-featured-backfround: var(--color-white);
+    --color-title-section-featured-border: var(--color-black);
+    --color-title-section-featured-shadow: var(--color-vermillion);
+    --color-title-section-featured-heading: var(--color-vermillion);
+    --color-title-section-featured-accent: var(--color-black);
+    --color-title-section-featured-text: var(--color-davys-grey);
 }

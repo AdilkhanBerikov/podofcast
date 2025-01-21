@@ -1,6 +1,6 @@
 .title-section {
     padding-bottom: 256px;
-    background-color: var(--color-main-landing-background);
+    background-color: var(--color-title-section-background);
     background-image: url("../../../../images/backgroundAboutPage/bckgAboutPageMainSection.png");
     background-position: 50% -52px;
     background-repeat: no-repeat;
