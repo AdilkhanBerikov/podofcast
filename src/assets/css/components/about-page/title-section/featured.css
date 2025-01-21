@@ -54,7 +54,7 @@
 }
 
 .featured__accent {
-    color: var(--color-black);
+    color: var(--color-title-section-featured-accent);
 }
 
 .featured__text {
