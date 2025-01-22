@@ -155,4 +155,21 @@
     --color-title-section-featured-heading: var(--color-vermillion);
     --color-title-section-featured-accent: var(--color-black);
     --color-title-section-featured-text: var(--color-davys-grey);
+
+    /*adout-page info-section*/
+    --color-info-section-heading: var(--color-black);
+    --color-info-section-description: var(--color-davys-grey);
+    --color-info-section-subheading-history: var(--color-black);
+    --color-info-section-subheading-hosts: var(--color-black);
+
+    --color-info-section-history-border: var(--color-davys-grey);
+    --color-info-section-history-text: var(--color-davys-grey);
+    --color-info-section-history-text-highlights: var(--color-black);
+    --color-info-section-history-text-link: var(--color-black);
+
+    --color-info-section-item-border: var(--color-black);
+    --color-info-section-item-shadow: var(--color-black);
+    --color-info-section-item-text: var(--color-davys-grey);
+    --color-info-section-item-footer-border: var(--color-davys-grey);
+    --color-info-section-item-footer-text: var(--color-davys-grey);
 }
