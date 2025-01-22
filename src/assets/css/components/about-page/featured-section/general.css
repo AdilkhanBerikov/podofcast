@@ -1,0 +1,8 @@
+.featured-section {
+    width: 100vw;
+    background: linear-gradient(
+            to bottom,
+            var(--color-title-section-background) 49%,
+            var(--color-background-default) 49%
+    );
+}

@@ -1,9 +1,8 @@
 .main-section__heading {
-    font: var(--font-body-medium);
     text-align: center;
 }
 
-.heading__text {
+.main-section__title {
     padding-top: 40px;
     margin-bottom: 40px;
     font: var(--font-heading);
@@ -14,10 +13,12 @@
     flex-direction: column;
 }
 
-.heading__accent {
+.main-section__title-accent {
     color: var(--color-main-heading-text-accent);
 }
 
-.heading__body-text {
+.main-section__description {
+    font: var(--font-body-medium);
+    color: var(--color-main-section-description);
     margin-bottom: 60px;
 }
