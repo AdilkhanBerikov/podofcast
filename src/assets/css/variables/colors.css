@@ -159,7 +159,7 @@
     /*adout-page info-section*/
     --color-info-section-heading: var(--color-black);
     --color-info-section-description: var(--color-davys-grey);
-    --color-info-section-subheading-history: var(--color-black);
+    --color-info-section-subheading: var(--color-black);
     --color-info-section-subheading-hosts: var(--color-black);
 
     --color-info-section-history-border: var(--color-davys-grey);

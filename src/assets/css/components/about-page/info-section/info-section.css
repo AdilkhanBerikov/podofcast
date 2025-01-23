@@ -25,21 +25,21 @@
     margin-bottom: 60px;
 }
 
-.info-section__subheading-history {
+.info-section__subheading {
     margin-bottom: 80px;
     position: relative;
-    color: var(--color-info-section-subheading-history);
+    color: var(--color-info-section-subheading);
     font: var(--font-h2);
     line-height: 1.4;
     letter-spacing: -0.02em;
     text-align: center;
 }
 
-.info-section__subheading-history::before {
-    --info-subheading-history-before-size: 120px;
+.info-section__subheading::before {
+    --info-subheading-before-size: 120px;
     content: '';
-    width: var(--info-subheading-history-before-size);
-    height: var(--info-subheading-history-before-size);
+    width: var(--info-subheading-before-size);
+    height: var(--info-subheading-before-size);
     top: -69px;
     left: 331px;
     pointer-events: none;
@@ -47,7 +47,7 @@
     position: absolute;
     background-image: url("../../../../../assets/images/background/bckgEpisodesSection.png");
     background-repeat: no-repeat;
-    background-size: 120px 120px;
+    background-size: var(--info-subheading-before-size) var(--info-subheading-before-size);
     transform: scaleX(-1);
 }
 
@@ -98,7 +98,7 @@
     position: absolute;
     background-image: url("../../../../../assets/images/illustration/scribbleBlue.png");
     background-repeat: no-repeat;
-    background-size: 100px 100px;
+    background-size: var(--info-subheading-hosts-before-size) var(--info-subheading-hosts-before-size);
     width: var(--info-subheading-hosts-before-size);
     height: var(--info-subheading-hosts-before-size);
     pointer-events: none;
@@ -106,14 +106,14 @@
     transform: rotate(30deg);
 }
 
-.info-section__list {
+.info-section__hosts {
     /*display: grid;*/
     /*grid-template-columns: 50% 50%;*/
     display: flex;
     gap: 20px;
 }
 
-.info-section__item {
+.info-section__host {
     --info-item-width: 570px;
     --info-item-height: 520px;
     min-width: var(--info-item-width);
@@ -128,62 +128,57 @@
     gap: 20px;
 }
 
-.info-section__item:first-of-type::before {
+.info-section__host::before {
+    --info-section-host-before-size: 130px;
     content: '';
     top: 14px;
     right: 14px;
     position: absolute;
+    background-repeat: no-repeat;
+    background-size: var(--info-section-host-before-size) var(--info-section-host-before-size);
+    width: var(--info-section-host-before-size);
+    height: var(--info-section-host-before-size);
+    pointer-events: none;
+}
+
+.info-section__host:first-of-type::before {
     background-image: url("../../../../../assets/images/illustration/Face1.png");
-    background-repeat: no-repeat;
-    background-size: 130px 130px;
-    width: 130px;
-    height: 130px;
-    pointer-events: none;
 }
 
-.info-section__item:last-of-type::before {
-    content: '';
-    top: 14px;
-    right: 14px;
-    position: absolute;
+.info-section__host:last-of-type::before {
     background-image: url("../../../../../assets/images/illustration/Star.png");
-    background-repeat: no-repeat;
-    background-size: 130px 130px;
-    width: 130px;
-    height: 130px;
-    pointer-events: none;
 }
 
-.info-section__item-content {
+.host__content {
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
     gap: 20px;
 }
 
-.info-section__item-title {
+.host__title {
     display: grid;
     grid-template-columns: min-content;
     grid-template-rows: min-content min-content;
     gap: 6px;
 }
 
-.info-section__item-subheading {
+.host__subheading {
     font: var(--font-caption-medium);
 }
 
-.info-section__item-heading {
+.host__heading {
     font: var(--font-h2);
     letter-spacing: -0.02em;
     line-height: 1;
 }
 
-.info-section__item-text {
+.host__text {
     font: var(--font-caption-medium);
     color: var(--color-info-section-item-text);
 }
 
-.info-section__item-footer {
+.host__footer {
     padding-top: 10px;
     border-top: 0.5px solid var(--color-info-section-item-footer-border);
     display: flex;
@@ -192,17 +187,17 @@
     gap: 19px;
 }
 
-.info-section__footer-text {
+.host__footer-text {
     font: var(--font-small-bold);
     color: var(--color-info-section-item-footer-text);
 }
 
-.info-section__footer-list {
+.host__footer-socials {
     display: flex;
     align-items: center;
     gap: 10px;
 }
 
-.info-section__footer-item {
+.host__footer-social {
     font-size: 0;
 }
