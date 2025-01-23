@@ -155,4 +155,21 @@
     --color-title-section-featured-heading: var(--color-vermillion);
     --color-title-section-featured-accent: var(--color-black);
     --color-title-section-featured-text: var(--color-davys-grey);
+
+    /*adout-page info-section*/
+    --color-info-section-heading: var(--color-black);
+    --color-info-section-description: var(--color-davys-grey);
+
+    --color-history-section-heading: var(--color-black);
+    --color-history-section-text: var(--color-davys-grey);
+    --color-history-section-text-highlights: var(--color-black);
+    --color-history-section-text-link: var(--color-black);
+
+    --color-hosts-section-border: var(--color-davys-grey);
+    --color-hosts-section-heading: var(--color-black);
+    --color-hosts-section-card-border: var(--color-black);
+    --color-hosts-section-card-shadow: var(--color-black);
+    --color-host-card-description: var(--color-davys-grey);
+    --color-host-card-footer-border: var(--color-davys-grey);
+    --color-host-card-available: var(--color-davys-grey);
 }

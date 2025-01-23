@@ -1,0 +1,136 @@
+.hosts-section {
+    padding-top: 100px;
+    border-top: 0.5px solid var(--color-hosts-section-border);
+}
+
+.hosts-section__heading {
+    margin-bottom: 80px;
+    position: relative;
+    color: var(--color-hosts-section-heading);
+    font: var(--font-h2);
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.hosts-section__heading::before {
+    --hosts-heading-before-size: 100px;
+    content: '';
+    top: -62px;
+    right: 307px;
+    position: absolute;
+    background-image: url("../../../../../assets/images/illustration/scribbleBlue.png");
+    background-repeat: no-repeat;
+    background-size: var(--hosts-heading-before-size) var(--hosts-heading-before-size);
+    width: var(--hosts-heading-before-size);
+    height: var(--hosts-heading-before-size);
+    pointer-events: none;
+    z-index: 10;
+    transform: rotate(30deg);
+}
+
+.hosts-section__cards {
+    /*display: grid;*/
+    /*grid-template-columns: 50% 50%;*/
+    display: flex;
+    gap: 20px;
+}
+
+.hosts-section__card {
+    border: 2px solid var(--color-hosts-section-card-border);
+    border-radius: var(--border-radius);
+    box-shadow: 10px 10px 0 var(--color-hosts-section-card-shadow);
+}
+
+.host-card {
+    --host-card-width: 570px;
+    --host-card-height: 520px;
+    min-width: var(--host-card-width);
+    min-height: var(--host-card-height);
+    padding: 14px;
+    position: relative;
+    display: grid;
+    grid-template-columns: max-content 1fr;
+    gap: 20px;
+}
+
+.host-card::before {
+    --host-card-before-size: 130px;
+    content: '';
+    top: 14px;
+    right: 14px;
+    position: absolute;
+    background-repeat: no-repeat;
+    background-size: var(--host-card-before-size) var(--host-card-before-size);
+    width: var(--host-card-before-size);
+    height: var(--host-card-before-size);
+    pointer-events: none;
+}
+
+.host-card:first-of-type::before {
+    background-image: url("../../../../../assets/images/illustration/Face1.png");
+}
+
+.host-card:last-of-type::before {
+    background-image: url("../../../../../assets/images/illustration/Star.png");
+}
+
+.host-card__avatar {
+    --host-card-avatar-width: 259px;
+    max-width: var(--host-card-avatar-width);
+    width: 100%;
+    height: auto;
+}
+
+.host-card__content {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+.host-card__title {
+    display: grid;
+    grid-template-columns: min-content;
+    grid-template-rows: min-content min-content;
+    gap: 6px;
+}
+
+.host-card__order {
+    font: var(--font-caption-medium);
+}
+
+.host-card__name {
+    font: var(--font-h2);
+    letter-spacing: -0.02em;
+    line-height: 1;
+}
+
+.host-card__description {
+    font: var(--font-caption-medium);
+    color: var(--color-host-card-description);
+}
+
+.host-card__footer {
+    padding-top: 10px;
+    border-top: 0.5px solid var(--color-host-card-footer-border);
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 19px;
+}
+
+.host-card__available {
+    font: var(--font-small-bold);
+    color: var(--color-host-card-available);
+}
+
+.host-card__socials {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.host-card__social {
+    font-size: 0;
+}

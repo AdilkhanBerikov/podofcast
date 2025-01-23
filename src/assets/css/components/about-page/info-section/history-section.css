@@ -1,0 +1,55 @@
+.history-section {
+    padding-bottom: 81px;
+}
+
+.history-section__heading {
+    margin-bottom: 80px;
+    position: relative;
+    color: var(--color-history-section-heading);
+    font: var(--font-h2);
+    line-height: 1.4;
+    letter-spacing: -0.02em;
+    text-align: center;
+}
+
+.history-section__heading::before {
+    --history-heading-before-size: 120px;
+    content: '';
+    width: var(--history-heading-before-size);
+    height: var(--history-heading-before-size);
+    top: -69px;
+    left: 331px;
+    pointer-events: none;
+    z-index: 10;
+    position: absolute;
+    background-image: url("../../../../../assets/images/background/bckgEpisodesSection.png");
+    background-repeat: no-repeat;
+    background-size: var(--history-heading-before-size) var(--history-heading-before-size);
+    transform: scaleX(-1);
+}
+
+.history-section__description {
+    display: flex;
+    gap: 20px;
+}
+
+.history-section__contents {
+    display: grid;
+    gap: 26px;
+}
+
+.history-section__text {
+    font: var(--font-body-medium);
+    color: var(--color-history-section-text);
+}
+
+.history-section__text-highlights {
+    font: var(--font-body-bold);
+    color: var(--color-history-section-text-highlights);
+}
+
+.history-section__text-link {
+    font: var(--font-body-medium);
+    color: var(--color-history-section-text-link);
+    text-decoration: underline;
+}
