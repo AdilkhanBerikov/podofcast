@@ -159,17 +159,17 @@
     /*adout-page info-section*/
     --color-info-section-heading: var(--color-black);
     --color-info-section-description: var(--color-davys-grey);
-    --color-info-section-subheading: var(--color-black);
-    --color-info-section-subheading-hosts: var(--color-black);
 
-    --color-info-section-history-border: var(--color-davys-grey);
-    --color-info-section-history-text: var(--color-davys-grey);
-    --color-info-section-history-text-highlights: var(--color-black);
-    --color-info-section-history-text-link: var(--color-black);
+    --color-history-section-heading: var(--color-black);
+    --color-history-section-text: var(--color-davys-grey);
+    --color-history-section-text-highlights: var(--color-black);
+    --color-history-section-text-link: var(--color-black);
 
-    --color-info-section-item-border: var(--color-black);
-    --color-info-section-item-shadow: var(--color-black);
-    --color-info-section-item-text: var(--color-davys-grey);
-    --color-info-section-item-footer-border: var(--color-davys-grey);
-    --color-info-section-item-footer-text: var(--color-davys-grey);
+    --color-hosts-section-border: var(--color-davys-grey);
+    --color-hosts-section-heading: var(--color-black);
+    --color-hosts-section-card-border: var(--color-black);
+    --color-hosts-section-card-shadow: var(--color-black);
+    --color-host-card-description: var(--color-davys-grey);
+    --color-host-card-footer-border: var(--color-davys-grey);
+    --color-host-card-available: var(--color-davys-grey);
 }
