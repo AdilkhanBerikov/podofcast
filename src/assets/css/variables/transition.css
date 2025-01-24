@@ -1,4 +1,5 @@
 :root {
+    --transition-duration-short: 100ms;
     --transition-duration: 300ms;
     --transition-duration-long: 600ms;
 }
