@@ -34,6 +34,10 @@
     color: var(--color-scroll-hover);
 }
 
+.scroll.-right svg {
+    transform: rotate(180deg); /* Переворачиваем стрелку */
+}
+
 /*.scroll path {*/
 /*    transition: stroke var(--transition-duration);*/
 /*}*/
