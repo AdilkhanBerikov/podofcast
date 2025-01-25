@@ -1,0 +1,33 @@
+.sponsor-section__scroll-list {
+    margin-bottom: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 570px);
+    gap: 20px;
+}
+
+.sponsor-section__scroll-item {
+    padding: 38px 15px 28px;
+    background-color: var(--color-sponsor-section-scroll-item-background);
+    border: 1.61px solid var(--color-sponsor-section-scroll-item-border);
+    border-radius: var(--border-radius-large);
+    text-align: center;
+    display: grid;
+    justify-items: center;
+    gap: 30px;
+}
+
+.sponsor__logo {
+    --sponsor-logo-width: 355px;
+    width: var(--sponsor-logo-width);
+    padding-bottom: 19px;
+    border-bottom: 0.5px solid var(--color-sponsor-logo-border);
+}
+
+.sponsor__description {
+    font: var(--font-caption-medium);
+    color: var(--color-sponsor-description);
+}
+
+.sponsor-description__highlights {
+    color: var(--color-sponsor-description-highlights);
+}

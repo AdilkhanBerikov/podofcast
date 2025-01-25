@@ -1,0 +1,7 @@
+.sponsor-section {
+    padding-top: 140px;
+    padding-bottom: 140px;
+    background-color: var(--color-sponsor-section-background);
+    overflow: hidden;
+    position: relative;
+}
