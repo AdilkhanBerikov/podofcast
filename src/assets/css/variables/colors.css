@@ -172,4 +172,15 @@
     --color-host-card-description: var(--color-davys-grey);
     --color-host-card-footer-border: var(--color-davys-grey);
     --color-host-card-available: var(--color-davys-grey);
+
+    /*sponsor-section*/
+    --color-sponsor-section-background: var(--color-champagne);
+    --color-sponsor-section-subheading: var(--color-davys-grey);
+
+    --color-sponsor-section-scroll-item-background: var(--color-white);
+    --color-sponsor-section-scroll-item-border: var(--color-black);
+
+    --color-sponsor-logo-border: var(--color-davys-grey);
+    --color-sponsor-description: var(--color-davys-grey);
+    --color-sponsor-description-highlights: var(--color-black);
 }
