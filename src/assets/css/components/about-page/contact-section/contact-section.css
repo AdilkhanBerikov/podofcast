@@ -2,6 +2,7 @@
     padding-top: 140px;
     padding-bottom: 140px;
     background-color: var(--color-background-default);
+    width: 100vw;
 }
 
 .contact-section__heading {
@@ -14,16 +15,16 @@
 }
 
 .contact-section__heading::before {
-    --contact-section-heading-before-size: 100px;
+    --form-heading-before-size: 100px;
     content: '';
     top: -61px;
     right: 155px;
     position: absolute;
     background-image: url("../../../../../assets/images/illustration/vector.png");
     background-repeat: no-repeat;
-    background-size: var(--contact-section-heading-before-size) var(--contact-section-heading-before-size);
-    width: var(--contact-section-heading-before-size);
-    height: var(--contact-section-heading-before-size);
+    background-size: var(--form-heading-before-size) var(--form-heading-before-size);
+    width: var(--form-heading-before-size);
+    height: var(--form-heading-before-size);
     pointer-events: none;
     z-index: 10;
 }
@@ -39,144 +40,102 @@
 
 .contact-section__form {
     padding-top: 40px;
-    position: relative;
     border-top: 0.5px solid var(--color-davys-grey);
+}
+
+.form {
+    position: relative;
     display: grid;
-    grid-template-rows: repeat(4, min-content);
-    grid-template-columns: min-content min-content;
+    grid-template-rows: repeat(4, max-content);
+    grid-template-columns: repeat(2, 373px);
     row-gap: 40px;
     column-gap: 20px;
     justify-content: center;
 }
 
-.contact-section__form::before {
-    --contact-section-form-before-size: 120px;
+.form::before {
+    --form-form-before-size: 120px;
     content: '';
     top: 416px;
     left: -317px;
     position: absolute;
     background-image: url("../../../../../assets/images/illustration/Vector4.png");
     background-repeat: no-repeat;
-    background-size: var(--contact-section-form-before-size) var(--contact-section-form-before-size);
-    width: var(--contact-section-form-before-size);
-    height: var(--contact-section-form-before-size);
+    background-size: var(--form-form-before-size) var(--form-form-before-size);
+    width: var(--form-form-before-size);
+    height: var(--form-form-before-size);
     pointer-events: none;
     z-index: 10;
 }
 
-.contact-section__form::after {
-    --contact-section-form-after-size: 78px;
+.form::after {
+    --form-form-after-size: 78px;
     content: '';
     top: 0;
     right: -119px;
     position: absolute;
     background-image: url("../../../../../assets/images/illustration/shiningStarsFeaturesSection.png");
     background-repeat: no-repeat;
-    background-size: var(--contact-section-form-after-size) var(--contact-section-form-after-size);
-    width: var(--contact-section-form-after-size);
-    height: var(--contact-section-form-after-size);
+    background-size: var(--form-form-after-size) var(--form-form-after-size);
+    width: var(--form-form-after-size);
+    height: var(--form-form-after-size);
     pointer-events: none;
     z-index: 10;
 }
 
-.contact-section__field {
+.form__field {
     display: grid;
     gap: 16px;
 }
 
-.contact-section__label {
-    font: var(--font-caption-bold);
-}
-
-.contact-section__required-marker {
+.form__field.-required .form__label::after {
+    content: "*";
     font: var(--font-caption-bold);
     color: var(--color-vermillion);
 }
 
-.contact-section__input {
-    --contact-section-input-width: 373px;
-    --contact-section-input-height: 64px;
-    padding: 17px 18px;
-    width: var(--contact-section-input-width);
-    height: var(--contact-section-input-height);
-    border: 1.5px solid var(--color-black);
-    border-radius: var(--border-radius);
-    outline: none;
-    font: var(--font-body-bold) !important;
-    color: var(--color-black);
-    caret-color: var(--color-black) !important;
-    -webkit-font-smoothing: antialiased;
+.form__label {
+    font: var(--font-caption-bold);
 }
 
-.contact-section__input:hover {
-    transition: border-color var(--transition-duration);
-    border-color: var(--color-vermillion);
-}
-
-.contact-section__input:focus-visible {
-    border-color: var(--color-vermillion);
-}
-
-.contact-section__input::placeholder {
-    font: var(--font-body-medium); /* Средний шрифт */
-    color: var(--color-davys-grey); /* Укажите нужный цвет */
-}
-
-.contact-section__input.-textarea {
-    --contact-section-textarea-width: 766px;
-    --contact-section-textarea-height: 165px;
-    padding: 20px;
-    width: var(--contact-section-textarea-width);
-    height: var(--contact-section-textarea-height);
-}
-
-.contact-section__field-message {
+.form__field.-message {
     grid-column: 1 / 3;
-    display: grid;
     gap: 25px;
 }
 
-/*.contact-section__textarea {*/
-/*    --contact-section-textarea-width: 766px;*/
-/*    --contact-section-textarea-height: 165px;*/
-/*    padding: 20px;*/
-/*    width: var(--contact-section-textarea-width);*/
-/*    height: var(--contact-section-textarea-height);*/
-/*    border: 1.5px solid var(--color-black);*/
-/*    border-radius: var(--border-radius);*/
-/*    outline: none;*/
-/*    font: var(--font-body-bold);*/
-/*    color: var(--color-black);*/
-/*}*/
-
-/*.contact-section__textarea::placeholder {*/
-/*    font: var(--font-body-medium); !* Средний шрифт *!*/
-/*    color: var(--color-davys-grey); !* Укажите нужный цвет *!*/
-/*}*/
-
-.contact-section__footer {
+.form__footer {
     grid-column: 1 / 3;
     display: flex;
-    /*justify-content: space-between;*/
     align-items: center;
 }
 
-.contact-section__required {
+.form__footer.-required .form__required::before {
+    content: "*";
+    font: var(--font-caption-bold);
+    color: var(--color-vermillion);
+}
+
+.form__required {
     font: var(--font-caption-medium);
     color: var(--color-black);
 }
 
-.contact-section__button {
+/*.form__required-marker {*/
+/*    font: var(--font-caption-bold);*/
+/*    color: var(--color-vermillion);*/
+/*}*/
+
+.form__button {
     margin-right: 110px;
     margin-left: 220px;
 }
 
-.contact-section__note {
+.form__note {
     font: var(--font-caption-medium);
     color: var(--color-black);
 }
 
-.contact-section__link {
+.form__link {
     font: var(--font-caption-medium);
     color: var(--color-black);
     text-decoration: underline;
