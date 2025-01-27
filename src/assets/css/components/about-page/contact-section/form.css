@@ -1,0 +1,4 @@
+.contact-section__form {
+    padding-top: 40px;
+    border-top: 0.5px solid var(--color-contact-section-form-border);
+}
