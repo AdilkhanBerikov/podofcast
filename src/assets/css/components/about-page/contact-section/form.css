@@ -2,3 +2,43 @@
     padding-top: 40px;
     border-top: 0.5px solid var(--color-contact-section-form-border);
 }
+
+.form {
+    position: relative;
+    display: grid;
+    grid-template-rows: repeat(4, max-content);
+    grid-template-columns: repeat(2, 373px);
+    row-gap: 40px;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+.form::before {
+    --form-before-size: 120px;
+    content: '';
+    top: 416px;
+    left: -317px;
+    position: absolute;
+    background-image: url("../../../assets/images/illustration/Vector4.png");
+    background-repeat: no-repeat;
+    background-size: var(--form-before-size) var(--form-before-size);
+    width: var(--form-before-size);
+    height: var(--form-before-size);
+    pointer-events: none;
+    z-index: 10;
+}
+
+.form::after {
+    --form-after-size: 78px;
+    content: '';
+    top: 0;
+    right: -119px;
+    position: absolute;
+    background-image: url("../../../assets/images/illustration/shiningStarsFeaturesSection.png");
+    background-repeat: no-repeat;
+    background-size: var(--form-after-size) var(--form-after-size);
+    width: var(--form-after-size);
+    height: var(--form-after-size);
+    pointer-events: none;
+    z-index: 10;
+}
