@@ -42,3 +42,37 @@
     pointer-events: none;
     z-index: 10;
 }
+
+.contact-form__footer {
+    margin-top: 20px;
+    grid-column: 1 / 3;
+    display: flex;
+    align-items: center;
+}
+
+.contact-form__footer.-required .contact-form__required::before {
+    content: "*";
+    font: var(--font-caption-bold);
+    color: var(--color-form-footer-required-form-required);
+}
+
+.contact-form__required {
+    font: var(--font-caption-medium);
+    color: var(--color-form-required);
+}
+
+.contact-form__button {
+    margin-right: 110px;
+    margin-left: 220px;
+}
+
+.contact-form__note {
+    font: var(--font-caption-medium);
+    color: var(--color-form-note);
+}
+
+.contact-form__link {
+    font: var(--font-caption-medium);
+    color: var(--color-form-link);
+    text-decoration: underline;
+}
