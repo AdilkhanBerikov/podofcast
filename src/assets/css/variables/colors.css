@@ -199,6 +199,6 @@
     --color-input-caret: var(--color-black);
     --color-input-hover: var(--color-vermillion);
     --color-input-focus-visible-border: var(--color-pewter-blue);
-    --color-input-focus-visible-outline: var(--color-pewter-blue);
+    --color-input-focus-visible-shadow: var(--color-pewter-blue);
     --color-input-placeholder: var(--color-davys-grey);
 }

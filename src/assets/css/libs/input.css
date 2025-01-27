@@ -2,12 +2,11 @@
     padding: 17px 18px;
     border: 1.5px solid var(--color-input-border);
     border-radius: var(--border-radius);
-    outline: none;
     font: var(--font-body-bold);
     color: var(--color-input);
     caret-color: var(--color-input-caret);
     -webkit-font-smoothing: antialiased;
-    transition: border-color var(--transition-duration);
+    transition: border-color var(--transition-duration), box-shadow var(--transition-duration-long);
 }
 
 .input:hover {
@@ -16,7 +15,8 @@
 
 .input:focus-visible {
     border-color: var(--color-input-focus-visible-border);
-    outline: 2px solid var(--color-input-focus-visible-outline);
+    box-shadow: 0 0 5px var(--color-input-focus-visible-shadow);
+    outline: none;
 }
 
 .input::placeholder {
@@ -26,7 +26,7 @@
 
 .input.-textarea {
     resize: vertical;
-    min-height: 120px;
+    min-height: 64px;
     width: 100%;
     padding: 20px;
 }
