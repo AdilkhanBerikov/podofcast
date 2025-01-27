@@ -25,5 +25,8 @@
 }
 
 .input.-textarea {
+    resize: vertical;
+    min-height: 120px;
+    width: 100%;
     padding: 20px;
 }
