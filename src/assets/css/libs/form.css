@@ -1,62 +1,63 @@
-.form__field {
+.contact-form__field {
     display: grid;
     gap: 16px;
 }
 
-.form__field.-required .form__label::after {
+.contact-form__field.-required .contact-form__label::after {
     content: "*";
     font: var(--font-caption-bold);
     color: var(--color-form-field-required-form-label-after);
 }
 
-.form__label {
+.contact-form__label {
     font: var(--font-caption-bold);
 }
 
-.form__field.-message {
+.contact-form__field.-message {
     grid-column: 1 / 3;
     gap: 25px;
 }
 
-.form__footer {
+.contact-form__footer {
+    margin-top: 20px;
     grid-column: 1 / 3;
     display: flex;
     align-items: center;
 }
 
-.form__footer.-required .form__required::before {
+.contact-form__footer.-required .contact-form__required::before {
     content: "*";
     font: var(--font-caption-bold);
     color: var(--color-form-footer-required-form-required);
 }
 
-.form__required {
+.contact-form__required {
     font: var(--font-caption-medium);
     color: var(--color-form-required);
 }
 
-/*.form__required-marker {*/
+/*.contact-form__required-marker {*/
 /*    font: var(--font-caption-bold);*/
 /*    color: var(--color-vermillion);*/
 /*}*/
 
-.form__button {
+.contact-form__button {
     margin-right: 110px;
     margin-left: 220px;
 }
 
-.form__note {
+.contact-form__note {
     font: var(--font-caption-medium);
     color: var(--color-form-note);
 }
 
-.form__link {
+.contact-form__link {
     font: var(--font-caption-medium);
     color: var(--color-form-link);
     text-decoration: underline;
 }
 
-.input {
+.contact-form__input {
     padding: 17px 18px;
     border: 1.5px solid var(--color-input-border);
     border-radius: var(--border-radius);
@@ -68,20 +69,20 @@
     transition: border-color var(--transition-duration);
 }
 
-.input:hover {
+.contact-form__input:hover {
     border-color: var(--color-input-hover);
 }
 
-.input:focus-visible {
+.contact-form__input:focus-visible {
     border-color: var(--color-input-focus-visible-border);
     outline: 2px solid var(--color-input-focus-visible-outline);
 }
 
-.input::placeholder {
+.contact-form__input::placeholder {
     font: var(--font-body-medium);
     color: var(--color-input-placeholder);
 }
 
-.input.-textarea {
+.contact-form__input.-textarea {
     padding: 20px;
 }

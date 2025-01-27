@@ -3,7 +3,7 @@
     border-top: 0.5px solid var(--color-contact-section-form-border);
 }
 
-.form {
+.contact-form {
     position: relative;
     display: grid;
     grid-template-rows: repeat(4, max-content);
@@ -13,13 +13,13 @@
     justify-content: center;
 }
 
-.form::before {
+.contact-form::before {
     --form-before-size: 120px;
     content: '';
     top: 416px;
     left: -317px;
     position: absolute;
-    background-image: url("../../../assets/images/illustration/Vector4.png");
+    background-image: url("../../../../../assets/images/illustration/Vector4.png");
     background-repeat: no-repeat;
     background-size: var(--form-before-size) var(--form-before-size);
     width: var(--form-before-size);
@@ -28,13 +28,13 @@
     z-index: 10;
 }
 
-.form::after {
+.contact-form::after {
     --form-after-size: 78px;
     content: '';
     top: 0;
     right: -119px;
     position: absolute;
-    background-image: url("../../../assets/images/illustration/shiningStarsFeaturesSection.png");
+    background-image: url("../../../../../assets/images/illustration/shiningStarsFeaturesSection.png");
     background-repeat: no-repeat;
     background-size: var(--form-after-size) var(--form-after-size);
     width: var(--form-after-size);
