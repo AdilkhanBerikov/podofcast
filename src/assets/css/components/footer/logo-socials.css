@@ -14,6 +14,10 @@
     gap: 25px;
 }
 
+.footer__socials.-alternate {
+    margin-top: -23px;
+}
+
 .logo__copyright {
     margin-left: 24px;
     font: var(--font-small-medium);
