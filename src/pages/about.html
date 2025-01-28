@@ -253,6 +253,99 @@
         </div>
       </section>
 
+      <section class="contact-section">
+        <div class="box -alternate">
+          <h2 class="contact-section__heading">Get in touch</h2>
+          <h3 class="contact-section__subheading">Send your message to us</h3>
+          <div class="contact-section__form">
+            <form class="contact-form" action="#" method="post">
+              <div class="field -required">
+                <label class="field__label" for="name">
+                  Full name
+                </label>
+                <input
+                        class="input"
+                        id="name"
+                        type="text"
+                        name="full_name"
+                        placeholder="Full name"
+                        maxlength="50"
+                        pattern="^[A-Za-z\s\-']+$"
+                        required
+                />
+              </div>
+              <div class="field -required">
+                <label class="field__label" for="email">
+                  Email
+                </label>
+                <input
+                        class="input"
+                        id="email"
+                        type="email"
+                        name="email"
+                        placeholder="johndoe@gmail.com"
+                        maxlength="254"
+                        autocomplete="email"
+                        required
+                />
+              </div>
+              <div class="field -required">
+                <label class="field__label" for="phone">
+                  Phone
+                </label>
+                <input
+                        class="input"
+                        id="phone"
+                        type="tel"
+                        name="phone"
+                        placeholder="Phone"
+                        maxlength="20"
+                        pattern="^\+?[0-9\s\-()]{7,15}$"
+                        required
+                />
+              </div>
+              <div class="field -required">
+                <label class="field__label" for="subject">
+                  Subject
+                </label>
+                <input
+                        class="input"
+                        id="subject"
+                        type="text"
+                        name="subject"
+                        placeholder="Subject..."
+                        required
+                />
+              </div>
+              <div class="contact-form__field field -message -required">
+                <label class="field__label" for="message">
+                  Message
+                </label>
+                <textarea
+                        class="input -textarea"
+                        id="message"
+                        name="message"
+                        placeholder="Your message goes here..."
+                        maxlength="1000"
+                        rows="5"
+                        required
+                ></textarea>
+              </div>
+              <div class="contact-form__footer">
+                <p class="contact-form__required">required</p>
+                <button class="contact-form__button button -medium" type="submit">
+                  Send Message
+                </button>
+                <p class="contact-form__note">
+                  Viverra at port<br>
+                  accumsan. <a class="contact-form__link link" href="#">Orci non</a>
+                </p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </section>
+
       <section class="section app-section">
         <div class="box app-section__wrapper">
           <h2 class="app-section__heading">

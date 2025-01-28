@@ -1,0 +1,32 @@
+.input {
+    padding: 17px 18px;
+    border: 1.5px solid var(--color-input-border);
+    border-radius: var(--border-radius);
+    font: var(--font-body-bold);
+    color: var(--color-input);
+    caret-color: var(--color-input-caret);
+    -webkit-font-smoothing: antialiased;
+    transition: border-color var(--transition-duration), box-shadow var(--transition-duration-long);
+}
+
+.input:hover {
+    border-color: var(--color-input-hover);
+}
+
+.input:focus-visible {
+    border-color: var(--color-input-focus-visible-border);
+    box-shadow: 0 0 5px var(--color-input-focus-visible-shadow);
+    outline: none;
+}
+
+.input::placeholder {
+    font: var(--font-body-medium);
+    color: var(--color-input-placeholder);
+}
+
+.input.-textarea {
+    resize: vertical;
+    min-height: 64px;
+    width: 100%;
+    padding: 20px;
+}

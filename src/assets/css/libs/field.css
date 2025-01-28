@@ -1,0 +1,18 @@
+.field {
+    display: grid;
+    gap: 16px;
+}
+
+.field.-required .field__label::after {
+    content: "*";
+    font: var(--font-caption-bold);
+    color: var(--color-form-field-required-form-label-after);
+}
+
+.field__label {
+    font: var(--font-caption-bold);
+}
+
+.field.-message {
+    gap: 25px;
+}

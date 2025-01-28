@@ -183,4 +183,22 @@
     --color-sponsor-logo-border: var(--color-davys-grey);
     --color-sponsor-description: var(--color-davys-grey);
     --color-sponsor-description-highlights: var(--color-black);
+
+    /*contact-section*/
+    --color-contact-section-heading: var(--color-black);
+    --color-contact-section-subheading: var(--color-davys-grey);
+    --color-contact-section-form-border: var(--color-davys-grey);
+
+    --color-form-field-required-form-label-after: var(--color-vermillion);
+    --color-form-footer-required-form-required: var(--color-vermillion);
+    --color-form-required: var(--color-black);
+    --color-form-note: var(--color-black);
+    --color-form-link: var(--color-black);
+    --color-input-border: var(--color-black);
+    --color-input: var(--color-black);
+    --color-input-caret: var(--color-black);
+    --color-input-hover: var(--color-vermillion);
+    --color-input-focus-visible-border: var(--color-pewter-blue);
+    --color-input-focus-visible-shadow: var(--color-pewter-blue);
+    --color-input-placeholder: var(--color-davys-grey);
 }

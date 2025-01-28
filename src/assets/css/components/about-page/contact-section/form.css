@@ -1,0 +1,82 @@
+.contact-section__form {
+    padding-top: 40px;
+    border-top: 0.5px solid var(--color-contact-section-form-border);
+}
+
+.contact-form {
+    position: relative;
+    display: grid;
+    grid-template-rows: repeat(4, max-content);
+    grid-template-columns: repeat(2, 373px);
+    row-gap: 40px;
+    column-gap: 20px;
+    justify-content: center;
+}
+
+.contact-form::before {
+    --form-before-size: 120px;
+    content: '';
+    top: 416px;
+    left: -317px;
+    position: absolute;
+    background-image: url("../../../../../assets/images/illustration/Vector4.png");
+    background-repeat: no-repeat;
+    background-size: var(--form-before-size) var(--form-before-size);
+    width: var(--form-before-size);
+    height: var(--form-before-size);
+    pointer-events: none;
+    z-index: 10;
+}
+
+.contact-form::after {
+    --form-after-size: 78px;
+    content: '';
+    top: 0;
+    right: -119px;
+    position: absolute;
+    background-image: url("../../../../../assets/images/illustration/shiningStarsFeaturesSection.png");
+    background-repeat: no-repeat;
+    background-size: var(--form-after-size) var(--form-after-size);
+    width: var(--form-after-size);
+    height: var(--form-after-size);
+    pointer-events: none;
+    z-index: 10;
+}
+
+.contact-form__field {
+    grid-column: 1 / 3;
+}
+
+.contact-form__footer {
+    margin-top: 20px;
+    grid-column: 1 / 3;
+    display: flex;
+    align-items: center;
+}
+
+.contact-form__required {
+    font: var(--font-caption-medium);
+    color: var(--color-form-required);
+}
+
+.contact-form__required::before {
+    content: "*";
+    font: var(--font-caption-bold);
+    color: var(--color-form-footer-required-form-required);
+}
+
+.contact-form__button {
+    margin-right: 110px;
+    margin-left: 220px;
+}
+
+.contact-form__note {
+    font: var(--font-caption-medium);
+    color: var(--color-form-note);
+}
+
+.contact-form__link {
+    font: var(--font-caption-medium);
+    color: var(--color-form-link);
+    text-decoration: underline;
+}
